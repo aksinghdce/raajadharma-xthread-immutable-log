@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "member_id": "M001",
+      "email": "demo1@raajadharma.org",
+      "name": "Test Governor",
+      "role": "Governor",
+      "password_hash": "46e235335bfb3ba90394bc358f637a3e77eafd707844a24edcb872a577a4d459",
+      "hash_algo": "sha256",
+      "email_verified": true,
+      "verification_token": null,
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2026-04-13T22:15:25.460062+00:00",
+      "verse_slot": 1
+    },
+    {
+      "member_id": "M002",
+      "email": "demo2@raajadharma.org",
+      "name": "Test Archer",
+      "role": "Member",
+      "password_hash": "5821d7fbb41797ec360b486a86264bc58a23179c98e6ac957df5042d69212457",
+      "hash_algo": "sha256",
+      "email_verified": true,
+      "verification_token": null,
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2026-04-13T22:15:25.460082+00:00",
+      "verse_slot": 2
+    }
+  ],
+  "next_id": 3
+}
