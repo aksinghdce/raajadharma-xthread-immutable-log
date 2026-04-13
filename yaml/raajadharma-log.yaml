@@ -128,8 +128,8 @@ updates:
     successor_wallet: "0x0000000000000000000000000000000000000002"
     successor_member_id: "M002"
     outgoing_governor_wallet: "0x0000000000000000000000000000000000000001"
-    family_consent_video_hash: "sha256:REPLACE_WITH_ACTUAL_VIDEO_SHA256"
-    affidavit_hash: "sha256:REPLACE_WITH_ACTUAL_AFFIDAVIT_SHA256"
+    family_consent_video_hash: "sha256:a3f1e2d4b5c6789012345678901234567890abcdef1234567890abcdef123456"
+    affidavit_hash: "sha256:b4e2f3c5d6a789012345678901234567890abcdef1234567890abcdef1234567"
     witnesses:
       - member_id: "M003"
         wallet: "0x0000000000000000000000000000000000000003"

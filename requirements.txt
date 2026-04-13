@@ -13,9 +13,6 @@ Pillow>=10.0.0
 # PDF generation for physical family records
 weasyprint>=60.0
 
-# Hashing / verification
-hashlib-compat>=1.0.0; python_version < "3.9"
-
 # Testing
 pytest>=7.4.0
 pytest-mock>=3.12.0

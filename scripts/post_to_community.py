@@ -174,8 +174,13 @@ def post_reply(
         print(f"    https://x.com/i/web/status/{new_tweet_id}")
         return new_tweet_id
 
-    except Exception as exc:  # noqa: BLE001
-        print(f"❌  Failed to post automatically: {exc}", file=sys.stderr)
+    except Exception as exc:
+        # Catch TweepyException specifically if tweepy is available, otherwise any network error
+        exc_type = type(exc).__name__
+        if TWEEPY_AVAILABLE and isinstance(exc, tweepy.TweepyException):
+            print(f"❌  X API error: {exc}", file=sys.stderr)
+        else:
+            print(f"❌  Failed to post automatically ({exc_type}): {exc}", file=sys.stderr)
         _print_manual_instructions(tweet_text, reply_to_tweet_id)
         return None
 
