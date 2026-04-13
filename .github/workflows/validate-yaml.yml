@@ -1,0 +1,92 @@
+name: Validate YAML Append-Only Integrity
+
+on:
+  pull_request:
+    paths:
+      - "yaml/**"
+      - "scripts/**"
+      - "tests/**"
+      - "examples/integration/**"
+  push:
+    branches:
+      - main
+      - "copilot/**"
+
+jobs:
+  validate-yaml:
+    name: "🔍 Validate YAML Immutability"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history needed for base comparison
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install PyYAML typer pytest python-dotenv fastapi httpx pydantic
+
+      - name: Structural validation (head)
+        run: python scripts/validate_yaml.py --yaml yaml/raajadharma-log.yaml
+
+      - name: Immutability regression check (base → head)
+        if: github.event_name == 'pull_request'
+        run: |
+          python - <<'EOF'
+          import subprocess, sys, yaml
+          from pathlib import Path
+          from scripts.validate_yaml import validate_no_regressions, entry_fingerprint
+
+          # Get base YAML
+          result = subprocess.run(
+              ["git", "show", "origin/${{ github.base_ref }}:yaml/raajadharma-log.yaml"],
+              capture_output=True, text=True
+          )
+          if result.returncode != 0:
+              print("ℹ️  No base YAML found — this is the first commit. Skipping regression check.")
+              sys.exit(0)
+
+          base_data = yaml.safe_load(result.stdout) or {}
+          base_entries = base_data.get("updates", [])
+
+          with open("yaml/raajadharma-log.yaml") as fh:
+              head_data = yaml.safe_load(fh) or {}
+          head_entries = head_data.get("updates", [])
+
+          errors = validate_no_regressions(base_entries, head_entries)
+          if errors:
+              print("❌ Immutability regression check FAILED:")
+              for e in errors:
+                  print(f"   • {e}")
+              sys.exit(1)
+
+          new_count = len(head_entries) - len(base_entries)
+          print(f"✅ Regression check PASSED — {new_count} new entries, all past entries intact.")
+          EOF
+
+      - name: Run unit + integration tests
+        run: python -m pytest tests/ -v
+
+  lint-python:
+    name: "🐍 Python Lint"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ruff
+        run: pip install ruff
+      - name: Run ruff
+        run: ruff check scripts/ tests/ --ignore E501,E402,PLC0415

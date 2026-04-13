@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RaajaDharma Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── Top navigation ────────────────────────────────────────── -->
+<nav class="navbar">
+  <div class="nav-brand">
+    🏹 RaajaDharma Student Portal
+  </div>
+  <div class="nav-links">
+    <a href="#groups-section">Groups</a>
+    <a href="#log-section">Log</a>
+    <a href="#record-section">Record</a>
+    <a href="https://x.com/i/communities/1981771124343283876" target="_blank" rel="noopener">
+      Community&nbsp;Thread&nbsp;↗
+    </a>
+  </div>
+</nav>
+
+<!-- ── Hero ──────────────────────────────────────────────────── -->
+<header class="hero">
+  <h1>Immutable Practice Records</h1>
+  <p>
+    Every archery session and spoken Sanskrit recitation your group records
+    is <strong>permanently committed</strong> to an append-only git ledger and
+    mirrored in the
+    <a href="https://x.com/i/communities/1981771124343283876" target="_blank" rel="noopener">
+      RaajaDharma community thread</a>.
+  </p>
+  <div class="hero-badges">
+    <span class="badge green">✓ Zero-gas</span>
+    <span class="badge blue">✓ $0 cost</span>
+    <span class="badge orange">✓ Append-only</span>
+    <span class="badge purple">✓ 2–9 members per group</span>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ── Toast notifications ──────────────────────────────────── -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 1 — Groups
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="groups-section" class="card">
+    <h2>👥 Student Groups</h2>
+    <p class="section-hint">
+      Each group (2–9 students) gets its own immutable ledger, cloned from
+      the <a href="https://github.com/aksinghdce/raajadharma-xthread-immutable-log"
+             target="_blank" rel="noopener">template repository</a> on the server.
+    </p>
+
+    <!-- Create group form -->
+    <details class="collapsible">
+      <summary>➕ Create a New Group</summary>
+      <form id="create-group-form" class="inline-form">
+        <div class="form-row">
+          <label>Group ID <span class="hint">(lowercase, hyphens only)</span>
+            <input type="text" name="group_id" placeholder="e.g. batch-2024-a"
+                   pattern="^[a-z0-9\-]+$" required>
+          </label>
+          <label>Group Name
+            <input type="text" name="group_name" placeholder="e.g. Morning Archery Batch A" required>
+          </label>
+          <label>Discipline
+            <select name="discipline">
+              <option value="archery">Archery Practice</option>
+              <option value="sanskrit">Spoken Sanskrit</option>
+              <option value="both">Both</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="members-list">
+          <h4>Members <span class="hint">(2–9 required)</span></h4>
+          <div class="member-row">
+            <input type="text" placeholder="Member 1 name" class="member-name" required>
+            <input type="text" placeholder="Wallet (optional)" class="member-wallet">
+          </div>
+          <div class="member-row">
+            <input type="text" placeholder="Member 2 name" class="member-name" required>
+            <input type="text" placeholder="Wallet (optional)" class="member-wallet">
+          </div>
+        </div>
+        <button type="button" id="add-member-btn" class="btn btn-secondary btn-sm">
+          + Add Member
+        </button>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Create Group</button>
+        </div>
+      </form>
+    </details>
+
+    <!-- Groups list -->
+    <div id="groups-list" class="card-list">
+      <p class="loading-text">Loading groups…</p>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 2 — View Log
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="log-section" class="card">
+    <h2>📋 Immutable Practice Log</h2>
+    <p class="section-hint">
+      All entries are permanent and cannot be edited or deleted.
+    </p>
+    <div class="form-row">
+      <label>Select Group
+        <select id="log-group-select">
+          <option value="">— choose a group —</option>
+        </select>
+      </label>
+      <button class="btn btn-primary" id="load-log-btn">Load Log</button>
+      <button class="btn btn-secondary" id="validate-btn">🔍 Validate Integrity</button>
+    </div>
+
+    <div id="log-entries" class="log-list"></div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       SECTION 3 — Record Practice
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="record-section" class="card">
+    <h2>📝 Record a Practice Session</h2>
+    <p class="section-hint">
+      Once submitted, this entry is <strong>permanently immutable</strong> — it
+      cannot be changed or deleted.
+    </p>
+
+    <div class="form-row">
+      <label>Group
+        <select id="record-group-select">
+          <option value="">— choose a group —</option>
+        </select>
+      </label>
+      <label>Record Type
+        <select id="record-type-select">
+          <option value="archery">🏹 Archery Practice</option>
+          <option value="sanskrit">📿 Sanskrit Recitation</option>
+        </select>
+      </label>
+    </div>
+
+    <!-- Archery form -->
+    <form id="archery-form" class="record-form">
+      <div class="form-row">
+        <label>Your Wallet Address
+          <input type="text" name="actor_wallet" placeholder="0x..." required>
+        </label>
+        <label>Session Description
+          <input type="text" name="description"
+                 placeholder="e.g. Thursday warm-up — 30 arrows at 18m" required>
+        </label>
+      </div>
+      <div class="form-row">
+        <label>Score <span class="hint">(0–300)</span>
+          <input type="number" name="score" min="0" max="300" placeholder="252">
+        </label>
+        <label>Distance (m)
+          <input type="number" name="distance_m" min="1" max="100" placeholder="18">
+        </label>
+        <label>Arrow Count
+          <input type="number" name="arrow_count" min="1" placeholder="30">
+        </label>
+      </div>
+      <label>Coach Form Notes
+        <textarea name="form_notes" rows="2"
+                  placeholder="Release tension improving; elbow flare persists…"></textarea>
+      </label>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">🏹 Record Archery Session</button>
+      </div>
+    </form>
+
+    <!-- Sanskrit form -->
+    <form id="sanskrit-form" class="record-form hidden">
+      <div class="form-row">
+        <label>Your Wallet Address
+          <input type="text" name="actor_wallet" placeholder="0x..." required>
+        </label>
+        <label>Description
+          <input type="text" name="description"
+                 placeholder="e.g. Gayatri Mantra — 3 rounds" required>
+        </label>
+      </div>
+      <div class="form-row">
+        <label>Text / Shloka Reference
+          <input type="text" name="text_reference" placeholder="e.g. Rigveda 3.62.10">
+        </label>
+        <label>Duration (seconds)
+          <input type="number" name="duration_seconds" min="1" placeholder="87">
+        </label>
+        <label>Accuracy %
+          <input type="number" name="accuracy_pct" min="0" max="100" placeholder="92">
+        </label>
+      </div>
+      <label>
+        Audio File <span class="hint">(hashed locally — file not uploaded)</span>
+        <input type="file" id="audio-file-input" accept="audio/*">
+        <span id="recitation-hash-display" class="hash-display"></span>
+        <input type="hidden" name="recitation_hash" id="recitation-hash-input">
+      </label>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">📿 Record Sanskrit Recitation</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>
+    RaajaDharma Archery Club DAO &nbsp;•&nbsp;
+    <a href="https://x.com/i/communities/1981771124343283876" target="_blank" rel="noopener">
+      Community Thread
+    </a>
+    &nbsp;•&nbsp;
+    <a href="https://github.com/aksinghdce/raajadharma-xthread-immutable-log"
+       target="_blank" rel="noopener">GitHub</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

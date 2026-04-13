@@ -1,0 +1,142 @@
+# ============================================================
+# RaajaDharma Family DAO — Master Append-Only Log
+# Community: https://x.com/i/communities/1981771124343283876
+#
+# IMMUTABILITY RULES:
+#   1. NEVER edit or delete any existing entry under "updates".
+#   2. ALWAYS append a new block at the bottom of the "updates" list.
+#   3. Each entry must include: date, actor_wallet, action_type,
+#      description, and (for successions) family_consent_video_hash
+#      + affidavit_hash + successor_wallet.
+#   4. After tweeting, fill in x_tweet_id for permanent linking.
+#
+# Governed by the MIT License. Git history + this script = immutable ledger.
+# ============================================================
+
+metadata:
+  dao_name: "RaajaDharma Archery Club DAO"
+  community_url: "https://x.com/i/communities/1981771124343283876"
+  created_at: "2024-01-01T00:00:00Z"
+  version: "1.0"
+  description: >
+    Append-only YAML ledger for the 9-person blood-relationship RaajaDharma
+    Archery Club DAO. Every governance action, succession transfer, and
+    membership event is permanently recorded here and mirrored as an
+    immutable reply in the pinned X community thread.
+  immutability_note: >
+    After each entry is tweeted into the community thread, X's 1-hour edit
+    window expires and the post becomes permanently immutable. Combined with
+    git history, this provides a zero-gas, media-rich immutable ledger.
+
+members:
+  - id: "M001"
+    name: "Member One"
+    role: "Governor"
+    wallet: "0x0000000000000000000000000000000000000001"
+    blood_relation: "Head of Family"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M002"
+    name: "Member Two"
+    role: "Coach"
+    wallet: "0x0000000000000000000000000000000000000002"
+    blood_relation: "Eldest Child"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M003"
+    name: "Member Three"
+    role: "Archer"
+    wallet: "0x0000000000000000000000000000000000000003"
+    blood_relation: "Second Child"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M004"
+    name: "Member Four"
+    role: "Archer"
+    wallet: "0x0000000000000000000000000000000000000004"
+    blood_relation: "Third Child"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M005"
+    name: "Member Five"
+    role: "Archer"
+    wallet: "0x0000000000000000000000000000000000000005"
+    blood_relation: "Fourth Child"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M006"
+    name: "Member Six"
+    role: "Contributor"
+    wallet: "0x0000000000000000000000000000000000000006"
+    blood_relation: "Spouse of Eldest Child"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M007"
+    name: "Member Seven"
+    role: "Contributor"
+    wallet: "0x0000000000000000000000000000000000000007"
+    blood_relation: "Grandchild — First"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M008"
+    name: "Member Eight"
+    role: "Contributor"
+    wallet: "0x0000000000000000000000000000000000000008"
+    blood_relation: "Grandchild — Second"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+  - id: "M009"
+    name: "Member Nine"
+    role: "Contributor"
+    wallet: "0x0000000000000000000000000000000000000009"
+    blood_relation: "Grandchild — Third"
+    joined_at: "2024-01-01T00:00:00Z"
+    active: true
+
+# ── append new entries ONLY below this line ──────────────────────────────────
+updates:
+  - entry_number: 1
+    date: "2024-01-01T00:00:00Z"
+    actor_wallet: "0x0000000000000000000000000000000000000001"
+    action_type: "dao_initialization"
+    description: >
+      RaajaDharma Archery Club DAO officially initialized. All 9 blood-related
+      family members recorded. Master append-only YAML ledger created and
+      pinned to the X community thread.
+    media_hashes: []
+    ipfs_hashes: []
+    x_tweet_id: ""
+    community_url: "https://x.com/i/communities/1981771124343283876"
+    verified_by: []
+
+  - entry_number: 2
+    date: "2024-01-15T12:00:00Z"
+    actor_wallet: "0x0000000000000000000000000000000000000001"
+    action_type: "blood_succession"
+    description: >
+      Governor blood-succession: M001 transfers Governor role to M002
+      (Eldest Child). Family consent video recorded. Signed affidavit
+      attached. New Governor wallet linked on-chain.
+    successor_wallet: "0x0000000000000000000000000000000000000002"
+    successor_member_id: "M002"
+    outgoing_governor_wallet: "0x0000000000000000000000000000000000000001"
+    family_consent_video_hash: "sha256:a3f1e2d4b5c6789012345678901234567890abcdef1234567890abcdef123456"
+    affidavit_hash: "sha256:b4e2f3c5d6a789012345678901234567890abcdef1234567890abcdef1234567"
+    witnesses:
+      - member_id: "M003"
+        wallet: "0x0000000000000000000000000000000000000003"
+      - member_id: "M004"
+        wallet: "0x0000000000000000000000000000000000000004"
+    media_hashes: []
+    ipfs_hashes: []
+    x_tweet_id: ""
+    community_url: "https://x.com/i/communities/1981771124343283876"
+    verified_by: []

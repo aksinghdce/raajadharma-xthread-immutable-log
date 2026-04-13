@@ -1,0 +1,27 @@
+📌 PINNED — RaajaDharma Archery Club DAO
+🏹 Family Governance Thread — Immutable Ledger
+
+This thread is the single source of truth for the
+RaajaDharma Archery Club DAO — a 9-person blood-relationship
+family governance structure.
+
+Every reply below this post is a permanent, immutable record
+of a family governance action. After X's 1-hour edit window,
+each post is forever locked.
+
+📊 Current Status
+  • Members: 9
+  • Ledger: github.com/aksinghdce/raajadharma-xthread-immutable-log
+
+📜 Governance Roles
+  • Governor    — Head of family; holds succession key
+  • Coach       — Trains and mentors archers
+  • Archer      — Active competing members
+  • Contributor — Supporting family members
+
+🔐 Blood Succession requires:
+  ✓ Family consent video (all 9 members)
+  ✓ Signed & scanned affidavit
+  ✓ New wallet address
+
+#RaajaDharma #FamilyDAO #ArcheryClub #ImmutableLedger
