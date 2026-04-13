@@ -6,6 +6,7 @@ on:
       - "yaml/**"
       - "scripts/**"
       - "tests/**"
+      - "examples/integration/**"
   push:
     branches:
       - main
@@ -32,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install PyYAML typer pytest python-dotenv
+          pip install PyYAML typer pytest python-dotenv fastapi httpx pydantic
 
       - name: Structural validation (head)
         run: python scripts/validate_yaml.py --yaml yaml/raajadharma-log.yaml
@@ -72,7 +73,7 @@ jobs:
           print(f"✅ Regression check PASSED — {new_count} new entries, all past entries intact.")
           EOF
 
-      - name: Run unit tests
+      - name: Run unit + integration tests
         run: python -m pytest tests/ -v
 
   lint-python:
