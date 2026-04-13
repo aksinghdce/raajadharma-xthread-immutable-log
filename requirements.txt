@@ -1,0 +1,21 @@
+# Core
+typer[all]>=0.9.0
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# X (Twitter) integration
+tweepy>=4.14.0
+
+# Screenshot / diff image generation (optional — requires playwright install)
+playwright>=1.40.0
+Pillow>=10.0.0
+
+# PDF generation for physical family records
+weasyprint>=60.0
+
+# Hashing / verification
+hashlib-compat>=1.0.0; python_version < "3.9"
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.12.0
