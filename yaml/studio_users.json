@@ -55,7 +55,19 @@
       "reset_expires": null,
       "created_at": "2026-04-14T07:28:12.545372+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M005",
+      "email": "5y4veYI1jDZrtlqlEj9yzZgxye12@firebase.local",
+      "name": "अमित कुमार सिंह",
+      "role": "Member",
+      "firebase_uid": "5y4veYI1jDZrtlqlEj9yzZgxye12",
+      "password_hash": "",
+      "hash_algo": "firebase",
+      "email_verified": true,
+      "created_at": "2026-04-14T17:54:27.212432+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 5
+  "next_id": 6
 }
