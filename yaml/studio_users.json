@@ -41,7 +41,21 @@
       "reset_expires": null,
       "created_at": "2026-04-13T22:15:34.715607+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M004",
+      "email": "aksinghdce@gmail.com",
+      "name": "रामसेवक",
+      "role": "Governor",
+      "password_hash": "$2b$12$8M.Ofji8J1l9tnsJQTY4zetz5X3bodeHrzX9eY3BqQ7zQB/b5hoQi",
+      "hash_algo": "bcrypt",
+      "email_verified": false,
+      "verification_token": "tL4RkNVR6nA4TXgEyKYEh9Hl2Xv8EkAQozjI3hTz6T0wrrC88Yd1k-Y1cZm88d-L",
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2026-04-14T07:28:12.545372+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 4
+  "next_id": 5
 }
