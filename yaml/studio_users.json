@@ -68,7 +68,19 @@
       "email_verified": true,
       "created_at": "2026-04-14T17:54:27.212432+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M006",
+      "email": "32v64k@gmail.com",
+      "name": "Monk",
+      "role": "Member",
+      "firebase_uid": "TKFTvt5YlMQPvzcGw3tMLwT4KR03",
+      "password_hash": "",
+      "hash_algo": "firebase",
+      "email_verified": true,
+      "created_at": "2026-04-15T22:03:18.278103+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 6
+  "next_id": 7
 }
