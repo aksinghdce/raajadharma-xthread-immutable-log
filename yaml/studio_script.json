@@ -1,52 +1,590 @@
 {
-  "version": 3,
+  "version": 4,
   "finalized": false,
-  "uploaded_by": "M004",
+  "uploaded_by": "M005",
   "uploaded_at": "2026-04-14T23:29:36.164835+00:00",
-  "updated_at": "2026-04-15T01:21:22.764658+00:00",
+  "updated_at": "2026-04-17T09:13:48.025529+00:00",
   "current_script_id": "legacy-2",
   "source_filename": "legacy-2.yaml",
-  "source_yaml": "title: forest_encounter_01\ndescription: A conversation between two travelers meeting in a forest.\nlines:\n- slot: 1\n  text: संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?\n  expression: 'grammar_point: Focus on the root ''गम'' (gam) for movement.; cultural_context:\n    The use of ''नमो नमः'' as a standard respectful greeting.'\n  segment_id: 1\n  layers:\n    facial_expression: Smiling, friendly eye contact\n    audio_layer:\n      bgm: Soft forest birds and wind\n      voice_tone: Welcoming, rising intonation for the question\n      sanskrit_emphasis: Focus on the 'visarga' in 'namah'\n    visual_layer:\n      background: Dense foliage with stylized trees\n      character_action: Raising right hand in a greeting gesture\n  grammar_notes:\n    grammar_point: Focus on the root 'गम' (gam) for movement.\n    cultural_context: The use of 'नमो नमः' as a standard respectful greeting.\n- slot: 2\n  text: हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?\n  segment_id: 1\n- slot: 3\n  text: संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।\n  expression: 'derivation_analysis: {''word'': ''गच्छामि'', ''root'': ''गम्'', ''analysis'':\n    ''Present tense, corresponding to the speaker (I)''}'\n  segment_id: 2\n  layers:\n    facial_expression: Neutral, informative\n    audio_layer:\n      bgm: Slightly louder rustling of leaves\n      voice_tone: Steady, declarative\n    visual_layer:\n      background: A path winding through the trees\n      character_action: Pointing toward the horizon\n  grammar_notes:\n    derivation_analysis:\n      word: गच्छामि\n      root: गम्\n      analysis: Present tense, corresponding to the speaker (I)\n- slot: 4\n  text: हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।\n  segment_id: 2\n- slot: 5\n  text: संस्कृत ॰ किं भवान् मया सह चलिष्यति?\n  expression: 'usage: Future tense construction using ''चलिष्यति''.'\n  segment_id: 3\n  layers:\n    facial_expression: Inquisitive, hopeful\n    audio_layer:\n      voice_tone: Inviting, melodic\n    visual_layer:\n      accent_elements: Border patterns reminiscent of geometric folk motifs\n  grammar_notes:\n    usage: Future tense construction using 'चलिष्यति'.\n- slot: 6\n  text: हिंदी ॰ क्या आप मेरे साथ चलेंगे?\n  segment_id: 3\n- slot: 7\n  text: संस्कृत ॰ आम्, अहं भवतः सह चलामि।\n  expression: 'grammar_point: Use of ''आम्'' for affirmation and ''चलामि'' as a first-person\n    singular future tense verb.'\n  segment_id: 4\n  layers:\n    facial_expression: Happy, relieved\n    audio_layer:\n      voice_tone: Affirmative, warm\n    visual_layer:\n      character_action: Nodding and starting to walk alongside the other character\n  grammar_notes:\n    grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular\n      future tense verb.\n- slot: 8\n  text: हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।\n  segment_id: 4\n- slot: 9\n  text: संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?\n  expression: 'grammar_point: Introduction using ''मम नाम ... अस्ति'' and asking for\n    the other person''s name with ''किम्?''.'\n  segment_id: 5\n  layers:\n    facial_expression: Curious, friendly\n    audio_layer:\n      voice_tone: Inquisitive, engaging\n    visual_layer:\n      character_action: Extending hand for a handshake\n  grammar_notes:\n    grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other\n      person's name with 'किम्?'.\n- slot: 10\n  text: हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?\n  segment_id: 5\n- slot: 11\n  text: संस्कृत ॰ मम नाम श्रीधर अस्ति।\n  expression: 'grammar_point: Introduction using ''मम नाम ... अस्ति'' for stating\n    one''s own name.'\n  segment_id: 6\n  layers:\n    facial_expression: Pleased, confident\n    audio_layer:\n      voice_tone: Calm, assertive\n    visual_layer:\n      character_action: Smiling and nodding\n  grammar_notes:\n    grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name.\n- slot: 12\n  text: हिंदी ॰ मेरा नाम श्रीधर है।\n  segment_id: 6\n- slot: 13\n  text: संस्कृत ॰ भवान् कुत्रतः आगतः?\n  expression: 'grammar_point: Asking about origin using ''कुत्रतः आगतः?''.'\n  segment_id: 7\n  layers:\n    facial_expression: Inquisitive, interested\n    audio_layer:\n      voice_tone: Curious, engaging\n    visual_layer:\n      character_action: Tilting head slightly, maintaining eye contact\n  grammar_notes:\n    grammar_point: Asking about origin using 'कुत्रतः आगतः?'.\n- slot: 14\n  text: हिंदी ॰ आप कहाँ से आए हैं?\n  segment_id: 7\n- slot: 15\n  text: संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून्\n    दृष्टवान् अस्मि।\n  expression: 'grammar_point: Past experience using perfect participle ''दृष्टवान्\n    अस्मि'' to indicate ''have seen''.'\n  segment_id: 8\n  layers:\n    facial_expression: Reflective, experienced\n    audio_layer:\n      bgm: Soft forest birds and wind\n      voice_tone: Calm, storytelling\n    visual_layer:\n      background: A path winding through the trees\n      character_action: Walking and gesturing towards the distant path\n  grammar_notes:\n    grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate\n      'have seen'.\n- slot: 16\n  text: हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में\n    अनेक जानवरों को देखा है।\n  segment_id: 8\n- slot: 17\n  text: संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां\n    विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\n  expression: 'grammar_point: Question formation with ''किम् अस्ति'' and ''उत'' for\n    presenting alternatives (''or'').'\n  segment_id: 9\n  layers:\n    facial_expression: Interested, engaged\n    audio_layer:\n      bgm: Slightly louder rustling of leaves\n      voice_tone: Curious, rising intonation\n    visual_layer:\n      character_action: Looking at the companion while walking side by side\n  grammar_notes:\n    grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives\n      ('or').\n- slot: 18\n  text: हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके\n    बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\n  segment_id: 9\n- slot: 19\n  text: संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः\n    ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः\n    अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\n  expression: 'grammar_point: Comparative structure using ''केचित् ... किन्तु केचित्''\n    to contrast predictable and unpredictable behaviors.'\n  segment_id: 10\n  layers:\n    facial_expression: Knowledgeable, explanatory\n    audio_layer:\n      bgm: Soft animal sounds in the distance\n      voice_tone: Informative, steady\n    visual_layer:\n      background: Dense foliage with stylized trees\n      character_action: Pointing towards the bushes as if indicating hidden animals\n  grammar_notes:\n    grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast\n      predictable and unpredictable behaviors.\n- slot: 20\n  text: हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं\n    क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो\n    सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\n  segment_id: 10\nscene_metadata:\n  scene_id: forest_encounter_01\n  context: A conversation between two travelers meeting in a forest.\n  art_style: Traditional regional folk art with vibrant line work\n  medium_of_instruction: हिंदी\n  target_language: संस्कृत\n  grammar_rules:\n    prathama_purusha: I\n    uttama_purusha: III\ntitle: forest_encounter_01\ndescription: A conversation between two travelers meeting in a forest.\nlines:\n  - slot: 1\n    text: 'संस्कृत ॰ '\n",
+  "source_yaml": "# Metadata for the Language Learning Scene\nscene_id: \"forest_encounter_01\"\ncontext: \"A conversation between two travelers meeting in a forest.\"\nart_style: \"Traditional regional folk art with vibrant line work\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Grammatical Mapping Configuration\n# Note: Following the project-specific mapping for purusha categorization\ngrammar_rules:\n  prathama_purusha: \"I\"\n  uttama_purusha: \"III\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्ते मित्र, आप कहाँ जा रहे हैं?\"\n    \"संस्कृत ॰\": \"नमो नमः मित्र, भवान् कुत्र गच्छति?\"\n    \n    # Technical and Creative Layers\n    layers:\n      facial_expression: \"Smiling, friendly eye contact\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Welcoming, rising intonation for the question\"\n        sanskrit_emphasis: \"Focus on the 'visarga' in 'namah'\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Raising right hand in a greeting gesture\"\n      \n    notes:\n      grammar_point: \"Focus on the root 'गम' (gam) for movement.\"\n      cultural_context: \"The use of 'नमो नमः' as a standard respectful greeting.\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"मैं ग्राम की ओर जा रहा हूँ।\"\n    \"संस्कृत ॰\": \"अहं ग्रामं प्रति गच्छामि।\"\n    \n    layers:\n      facial_expression: \"Neutral, informative\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Steady, declarative\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Pointing toward the horizon\"\n      \n    notes:\n      derivation_analysis:\n        word: \"गच्छामि\"\n        root: \"गम्\"\n        analysis: \"Present tense, corresponding to the speaker (I)\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"क्या आप मेरे साथ चलेंगे?\"\n    \"संस्कृत ॰\": \"किं भवान् मया सह चलिष्यति?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, hopeful\"\n      audio_layer:\n        voice_tone: \"Inviting, melodic\"\n      visual_layer:\n        accent_elements: \"Border patterns reminiscent of geometric folk motifs\"\n      \n    notes:\n      usage: \"Future tense construction using 'चलिष्यति'.\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"हाँ, मैं आपके साथ चलूँगा।\"\n    \"संस्कृत ॰\": \"आम्, अहं भवतः सह चलामि।\"\n    \n    layers:\n      facial_expression: \"Happy, relieved\"\n      audio_layer:\n        voice_tone: \"Affirmative, warm\"\n      visual_layer:\n        character_action: \"Nodding and starting to walk alongside the other character\"\n      \n    notes:\n      grammar_point: \"Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb.\"\n\n  - segment_id: 5\n    \"हिंदी ॰\": \"मेरा नाम अर्जुन है। आपका नाम क्या है?\"\n    \"संस्कृत ॰\": \"मम नाम अर्जुन अस्ति। भवतः नाम किम्?\"\n    \n    layers:\n      facial_expression: \"Curious, friendly\"\n      audio_layer:\n        voice_tone: \"Inquisitive, engaging\"\n      visual_layer:\n        character_action: \"Extending hand for a handshake\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'.\"\n\n  - segment_id: 6\n    \"हिंदी ॰\": \"मेरा नाम श्रीधर है।\"\n    \"संस्कृत ॰\": \"मम नाम श्रीधर अस्ति।\"\n\n    layers:\n      facial_expression: \"Pleased, confident\"\n      audio_layer:\n        voice_tone: \"Calm, assertive\"\n      visual_layer:\n        character_action: \"Smiling and nodding\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' for stating one's own name.\" \n\n  - segment_id: 7\n    \"हिंदी ॰\": \"आप कहाँ से आए हैं?\"\n    \"संस्कृत ॰\": \"भवान् कुत्रतः आगतः?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, interested\"\n      audio_layer:\n        voice_tone: \"Curious, engaging\"\n      visual_layer:\n        character_action: \"Tilting head slightly, maintaining eye contact\"\n      \n    notes:\n      grammar_point: \"Asking about origin using 'कुत्रतः आगतः?'.\"\n\n  - segment_id: 8\n    \"हिंदी ॰\": \"मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।\"\n    \"संस्कृत ॰\": \"अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।\"\n    \n    layers:\n      facial_expression: \"Reflective, experienced\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Calm, storytelling\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Walking and gesturing towards the distant path\"\n      \n    notes:\n      grammar_point: \"Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'.\"\n\n  - segment_id: 9\n    \"हिंदी ॰\": \"बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\"\n    \"संस्कृत ॰\": \"सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\"\n    \n    layers:\n      facial_expression: \"Interested, engaged\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Curious, rising intonation\"\n      visual_layer:\n        character_action: \"Looking at the companion while walking side by side\"\n      \n    notes:\n      grammar_point: \"Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or').\"\n\n  - segment_id: 10\n    \"हिंदी ॰\": \"मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\"\n    \"संस्कृत ॰\": \"मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\"\n    \n    layers:\n      facial_expression: \"Knowledgeable, explanatory\"\n      audio_layer:\n        bgm: \"Soft animal sounds in the distance\"\n        voice_tone: \"Informative, steady\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Pointing towards the bushes as if indicating hidden animals\"\n      \n    notes:\n      grammar_point: \"Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors.\"",
   "title": "forest_encounter_01",
   "description": "A conversation between two travelers meeting in a forest.",
   "lines": [
     {
       "slot": 1,
-      "speaker_hint": "",
-      "content": "संस्कृत ॰",
-      "line_type": "sanskrit"
+      "content": "संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?",
+      "line_type": "sanskrit",
+      "segment_id": 1,
+      "layers": {
+        "facial_expression": "Smiling, friendly eye contact",
+        "audio_layer": {
+          "bgm": "Soft forest birds and wind",
+          "voice_tone": "Welcoming, rising intonation for the question",
+          "sanskrit_emphasis": "Focus on the 'visarga' in 'namah'"
+        },
+        "visual_layer": {
+          "background": "Dense foliage with stylized trees",
+          "character_action": "Raising right hand in a greeting gesture"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Focus on the root 'गम' (gam) for movement.",
+        "cultural_context": "The use of 'नमो नमः' as a standard respectful greeting."
+      },
+      "notes": "grammar_point: Focus on the root 'गम' (gam) for movement.; cultural_context: The use of 'नमो नमः' as a standard respectful greeting."
+    },
+    {
+      "slot": 2,
+      "content": "हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?",
+      "line_type": "hindi",
+      "segment_id": 1
+    },
+    {
+      "slot": 3,
+      "content": "संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।",
+      "line_type": "sanskrit",
+      "segment_id": 2,
+      "layers": {
+        "facial_expression": "Neutral, informative",
+        "audio_layer": {
+          "bgm": "Slightly louder rustling of leaves",
+          "voice_tone": "Steady, declarative"
+        },
+        "visual_layer": {
+          "background": "A path winding through the trees",
+          "character_action": "Pointing toward the horizon"
+        }
+      },
+      "grammar_notes": {
+        "derivation_analysis": {
+          "word": "गच्छामि",
+          "root": "गम्",
+          "analysis": "Present tense, corresponding to the speaker (I)"
+        }
+      },
+      "notes": "derivation_analysis: {'word': 'गच्छामि', 'root': 'गम्', 'analysis': 'Present tense, corresponding to the speaker (I)'}"
+    },
+    {
+      "slot": 4,
+      "content": "हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।",
+      "line_type": "hindi",
+      "segment_id": 2
+    },
+    {
+      "slot": 5,
+      "content": "संस्कृत ॰ किं भवान् मया सह चलिष्यति?",
+      "line_type": "sanskrit",
+      "segment_id": 3,
+      "layers": {
+        "facial_expression": "Inquisitive, hopeful",
+        "audio_layer": {
+          "voice_tone": "Inviting, melodic"
+        },
+        "visual_layer": {
+          "accent_elements": "Border patterns reminiscent of geometric folk motifs"
+        }
+      },
+      "grammar_notes": {
+        "usage": "Future tense construction using 'चलिष्यति'."
+      },
+      "notes": "usage: Future tense construction using 'चलिष्यति'."
+    },
+    {
+      "slot": 6,
+      "content": "हिंदी ॰ क्या आप मेरे साथ चलेंगे?",
+      "line_type": "hindi",
+      "segment_id": 3
+    },
+    {
+      "slot": 7,
+      "content": "संस्कृत ॰ आम्, अहं भवतः सह चलामि।",
+      "line_type": "sanskrit",
+      "segment_id": 4,
+      "layers": {
+        "facial_expression": "Happy, relieved",
+        "audio_layer": {
+          "voice_tone": "Affirmative, warm"
+        },
+        "visual_layer": {
+          "character_action": "Nodding and starting to walk alongside the other character"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
+      },
+      "notes": "grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
+    },
+    {
+      "slot": 8,
+      "content": "हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।",
+      "line_type": "hindi",
+      "segment_id": 4
+    },
+    {
+      "slot": 9,
+      "content": "संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?",
+      "line_type": "sanskrit",
+      "segment_id": 5,
+      "layers": {
+        "facial_expression": "Curious, friendly",
+        "audio_layer": {
+          "voice_tone": "Inquisitive, engaging"
+        },
+        "visual_layer": {
+          "character_action": "Extending hand for a handshake"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
+      },
+      "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
+    },
+    {
+      "slot": 10,
+      "content": "हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?",
+      "line_type": "hindi",
+      "segment_id": 5
+    },
+    {
+      "slot": 11,
+      "content": "संस्कृत ॰ मम नाम श्रीधर अस्ति।",
+      "line_type": "sanskrit",
+      "segment_id": 6,
+      "layers": {
+        "facial_expression": "Pleased, confident",
+        "audio_layer": {
+          "voice_tone": "Calm, assertive"
+        },
+        "visual_layer": {
+          "character_action": "Smiling and nodding"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Introduction using 'मम नाम ... अस्ति' for stating one's own name."
+      },
+      "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name."
+    },
+    {
+      "slot": 12,
+      "content": "हिंदी ॰ मेरा नाम श्रीधर है।",
+      "line_type": "hindi",
+      "segment_id": 6
+    },
+    {
+      "slot": 13,
+      "content": "संस्कृत ॰ भवान् कुत्रतः आगतः?",
+      "line_type": "sanskrit",
+      "segment_id": 7,
+      "layers": {
+        "facial_expression": "Inquisitive, interested",
+        "audio_layer": {
+          "voice_tone": "Curious, engaging"
+        },
+        "visual_layer": {
+          "character_action": "Tilting head slightly, maintaining eye contact"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Asking about origin using 'कुत्रतः आगतः?'."
+      },
+      "notes": "grammar_point: Asking about origin using 'कुत्रतः आगतः?'."
+    },
+    {
+      "slot": 14,
+      "content": "हिंदी ॰ आप कहाँ से आए हैं?",
+      "line_type": "hindi",
+      "segment_id": 7
+    },
+    {
+      "slot": 15,
+      "content": "संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।",
+      "line_type": "sanskrit",
+      "segment_id": 8,
+      "layers": {
+        "facial_expression": "Reflective, experienced",
+        "audio_layer": {
+          "bgm": "Soft forest birds and wind",
+          "voice_tone": "Calm, storytelling"
+        },
+        "visual_layer": {
+          "background": "A path winding through the trees",
+          "character_action": "Walking and gesturing towards the distant path"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
+      },
+      "notes": "grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
+    },
+    {
+      "slot": 16,
+      "content": "हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।",
+      "line_type": "hindi",
+      "segment_id": 8
+    },
+    {
+      "slot": 17,
+      "content": "संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?",
+      "line_type": "sanskrit",
+      "segment_id": 9,
+      "layers": {
+        "facial_expression": "Interested, engaged",
+        "audio_layer": {
+          "bgm": "Slightly louder rustling of leaves",
+          "voice_tone": "Curious, rising intonation"
+        },
+        "visual_layer": {
+          "character_action": "Looking at the companion while walking side by side"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
+      },
+      "notes": "grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
+    },
+    {
+      "slot": 18,
+      "content": "हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?",
+      "line_type": "hindi",
+      "segment_id": 9
+    },
+    {
+      "slot": 19,
+      "content": "संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।",
+      "line_type": "sanskrit",
+      "segment_id": 10,
+      "layers": {
+        "facial_expression": "Knowledgeable, explanatory",
+        "audio_layer": {
+          "bgm": "Soft animal sounds in the distance",
+          "voice_tone": "Informative, steady"
+        },
+        "visual_layer": {
+          "background": "Dense foliage with stylized trees",
+          "character_action": "Pointing towards the bushes as if indicating hidden animals"
+        }
+      },
+      "grammar_notes": {
+        "grammar_point": "Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
+      },
+      "notes": "grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
+    },
+    {
+      "slot": 20,
+      "content": "हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।",
+      "line_type": "hindi",
+      "segment_id": 10
     }
   ],
   "proposals": [],
-  "scene_metadata": {},
+  "scene_metadata": {
+    "scene_id": "forest_encounter_01",
+    "context": "A conversation between two travelers meeting in a forest.",
+    "art_style": "Traditional regional folk art with vibrant line work",
+    "medium_of_instruction": "हिंदी",
+    "target_language": "संस्कृत",
+    "grammar_rules": {
+      "prathama_purusha": "I",
+      "uttama_purusha": "III"
+    }
+  },
   "archives": [
     {
       "id": "legacy-2",
-      "version": 3,
+      "version": 4,
       "finalized": false,
       "finalized_by": null,
       "finalized_at": null,
-      "uploaded_by": "M004",
+      "uploaded_by": "M005",
       "uploaded_at": "2026-04-14T23:29:36.164835+00:00",
-      "updated_at": "2026-04-15T01:21:22.764658+00:00",
+      "updated_at": "2026-04-17T09:13:48.025529+00:00",
       "source_filename": "legacy-2.yaml",
-      "source_yaml": "title: forest_encounter_01\ndescription: A conversation between two travelers meeting in a forest.\nlines:\n- slot: 1\n  text: संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?\n  expression: 'grammar_point: Focus on the root ''गम'' (gam) for movement.; cultural_context:\n    The use of ''नमो नमः'' as a standard respectful greeting.'\n  segment_id: 1\n  layers:\n    facial_expression: Smiling, friendly eye contact\n    audio_layer:\n      bgm: Soft forest birds and wind\n      voice_tone: Welcoming, rising intonation for the question\n      sanskrit_emphasis: Focus on the 'visarga' in 'namah'\n    visual_layer:\n      background: Dense foliage with stylized trees\n      character_action: Raising right hand in a greeting gesture\n  grammar_notes:\n    grammar_point: Focus on the root 'गम' (gam) for movement.\n    cultural_context: The use of 'नमो नमः' as a standard respectful greeting.\n- slot: 2\n  text: हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?\n  segment_id: 1\n- slot: 3\n  text: संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।\n  expression: 'derivation_analysis: {''word'': ''गच्छामि'', ''root'': ''गम्'', ''analysis'':\n    ''Present tense, corresponding to the speaker (I)''}'\n  segment_id: 2\n  layers:\n    facial_expression: Neutral, informative\n    audio_layer:\n      bgm: Slightly louder rustling of leaves\n      voice_tone: Steady, declarative\n    visual_layer:\n      background: A path winding through the trees\n      character_action: Pointing toward the horizon\n  grammar_notes:\n    derivation_analysis:\n      word: गच्छामि\n      root: गम्\n      analysis: Present tense, corresponding to the speaker (I)\n- slot: 4\n  text: हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।\n  segment_id: 2\n- slot: 5\n  text: संस्कृत ॰ किं भवान् मया सह चलिष्यति?\n  expression: 'usage: Future tense construction using ''चलिष्यति''.'\n  segment_id: 3\n  layers:\n    facial_expression: Inquisitive, hopeful\n    audio_layer:\n      voice_tone: Inviting, melodic\n    visual_layer:\n      accent_elements: Border patterns reminiscent of geometric folk motifs\n  grammar_notes:\n    usage: Future tense construction using 'चलिष्यति'.\n- slot: 6\n  text: हिंदी ॰ क्या आप मेरे साथ चलेंगे?\n  segment_id: 3\n- slot: 7\n  text: संस्कृत ॰ आम्, अहं भवतः सह चलामि।\n  expression: 'grammar_point: Use of ''आम्'' for affirmation and ''चलामि'' as a first-person\n    singular future tense verb.'\n  segment_id: 4\n  layers:\n    facial_expression: Happy, relieved\n    audio_layer:\n      voice_tone: Affirmative, warm\n    visual_layer:\n      character_action: Nodding and starting to walk alongside the other character\n  grammar_notes:\n    grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular\n      future tense verb.\n- slot: 8\n  text: हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।\n  segment_id: 4\n- slot: 9\n  text: संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?\n  expression: 'grammar_point: Introduction using ''मम नाम ... अस्ति'' and asking for\n    the other person''s name with ''किम्?''.'\n  segment_id: 5\n  layers:\n    facial_expression: Curious, friendly\n    audio_layer:\n      voice_tone: Inquisitive, engaging\n    visual_layer:\n      character_action: Extending hand for a handshake\n  grammar_notes:\n    grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other\n      person's name with 'किम्?'.\n- slot: 10\n  text: हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?\n  segment_id: 5\n- slot: 11\n  text: संस्कृत ॰ मम नाम श्रीधर अस्ति।\n  expression: 'grammar_point: Introduction using ''मम नाम ... अस्ति'' for stating\n    one''s own name.'\n  segment_id: 6\n  layers:\n    facial_expression: Pleased, confident\n    audio_layer:\n      voice_tone: Calm, assertive\n    visual_layer:\n      character_action: Smiling and nodding\n  grammar_notes:\n    grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name.\n- slot: 12\n  text: हिंदी ॰ मेरा नाम श्रीधर है।\n  segment_id: 6\n- slot: 13\n  text: संस्कृत ॰ भवान् कुत्रतः आगतः?\n  expression: 'grammar_point: Asking about origin using ''कुत्रतः आगतः?''.'\n  segment_id: 7\n  layers:\n    facial_expression: Inquisitive, interested\n    audio_layer:\n      voice_tone: Curious, engaging\n    visual_layer:\n      character_action: Tilting head slightly, maintaining eye contact\n  grammar_notes:\n    grammar_point: Asking about origin using 'कुत्रतः आगतः?'.\n- slot: 14\n  text: हिंदी ॰ आप कहाँ से आए हैं?\n  segment_id: 7\n- slot: 15\n  text: संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून्\n    दृष्टवान् अस्मि।\n  expression: 'grammar_point: Past experience using perfect participle ''दृष्टवान्\n    अस्मि'' to indicate ''have seen''.'\n  segment_id: 8\n  layers:\n    facial_expression: Reflective, experienced\n    audio_layer:\n      bgm: Soft forest birds and wind\n      voice_tone: Calm, storytelling\n    visual_layer:\n      background: A path winding through the trees\n      character_action: Walking and gesturing towards the distant path\n  grammar_notes:\n    grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate\n      'have seen'.\n- slot: 16\n  text: हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में\n    अनेक जानवरों को देखा है।\n  segment_id: 8\n- slot: 17\n  text: संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां\n    विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\n  expression: 'grammar_point: Question formation with ''किम् अस्ति'' and ''उत'' for\n    presenting alternatives (''or'').'\n  segment_id: 9\n  layers:\n    facial_expression: Interested, engaged\n    audio_layer:\n      bgm: Slightly louder rustling of leaves\n      voice_tone: Curious, rising intonation\n    visual_layer:\n      character_action: Looking at the companion while walking side by side\n  grammar_notes:\n    grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives\n      ('or').\n- slot: 18\n  text: हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके\n    बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\n  segment_id: 9\n- slot: 19\n  text: संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः\n    ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः\n    अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\n  expression: 'grammar_point: Comparative structure using ''केचित् ... किन्तु केचित्''\n    to contrast predictable and unpredictable behaviors.'\n  segment_id: 10\n  layers:\n    facial_expression: Knowledgeable, explanatory\n    audio_layer:\n      bgm: Soft animal sounds in the distance\n      voice_tone: Informative, steady\n    visual_layer:\n      background: Dense foliage with stylized trees\n      character_action: Pointing towards the bushes as if indicating hidden animals\n  grammar_notes:\n    grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast\n      predictable and unpredictable behaviors.\n- slot: 20\n  text: हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं\n    क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो\n    सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\n  segment_id: 10\nscene_metadata:\n  scene_id: forest_encounter_01\n  context: A conversation between two travelers meeting in a forest.\n  art_style: Traditional regional folk art with vibrant line work\n  medium_of_instruction: हिंदी\n  target_language: संस्कृत\n  grammar_rules:\n    prathama_purusha: I\n    uttama_purusha: III\ntitle: forest_encounter_01\ndescription: A conversation between two travelers meeting in a forest.\nlines:\n  - slot: 1\n    text: 'संस्कृत ॰ '\n",
+      "source_yaml": "# Metadata for the Language Learning Scene\nscene_id: \"forest_encounter_01\"\ncontext: \"A conversation between two travelers meeting in a forest.\"\nart_style: \"Traditional regional folk art with vibrant line work\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Grammatical Mapping Configuration\n# Note: Following the project-specific mapping for purusha categorization\ngrammar_rules:\n  prathama_purusha: \"I\"\n  uttama_purusha: \"III\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्ते मित्र, आप कहाँ जा रहे हैं?\"\n    \"संस्कृत ॰\": \"नमो नमः मित्र, भवान् कुत्र गच्छति?\"\n    \n    # Technical and Creative Layers\n    layers:\n      facial_expression: \"Smiling, friendly eye contact\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Welcoming, rising intonation for the question\"\n        sanskrit_emphasis: \"Focus on the 'visarga' in 'namah'\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Raising right hand in a greeting gesture\"\n      \n    notes:\n      grammar_point: \"Focus on the root 'गम' (gam) for movement.\"\n      cultural_context: \"The use of 'नमो नमः' as a standard respectful greeting.\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"मैं ग्राम की ओर जा रहा हूँ।\"\n    \"संस्कृत ॰\": \"अहं ग्रामं प्रति गच्छामि।\"\n    \n    layers:\n      facial_expression: \"Neutral, informative\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Steady, declarative\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Pointing toward the horizon\"\n      \n    notes:\n      derivation_analysis:\n        word: \"गच्छामि\"\n        root: \"गम्\"\n        analysis: \"Present tense, corresponding to the speaker (I)\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"क्या आप मेरे साथ चलेंगे?\"\n    \"संस्कृत ॰\": \"किं भवान् मया सह चलिष्यति?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, hopeful\"\n      audio_layer:\n        voice_tone: \"Inviting, melodic\"\n      visual_layer:\n        accent_elements: \"Border patterns reminiscent of geometric folk motifs\"\n      \n    notes:\n      usage: \"Future tense construction using 'चलिष्यति'.\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"हाँ, मैं आपके साथ चलूँगा।\"\n    \"संस्कृत ॰\": \"आम्, अहं भवतः सह चलामि।\"\n    \n    layers:\n      facial_expression: \"Happy, relieved\"\n      audio_layer:\n        voice_tone: \"Affirmative, warm\"\n      visual_layer:\n        character_action: \"Nodding and starting to walk alongside the other character\"\n      \n    notes:\n      grammar_point: \"Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb.\"\n\n  - segment_id: 5\n    \"हिंदी ॰\": \"मेरा नाम अर्जुन है। आपका नाम क्या है?\"\n    \"संस्कृत ॰\": \"मम नाम अर्जुन अस्ति। भवतः नाम किम्?\"\n    \n    layers:\n      facial_expression: \"Curious, friendly\"\n      audio_layer:\n        voice_tone: \"Inquisitive, engaging\"\n      visual_layer:\n        character_action: \"Extending hand for a handshake\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'.\"\n\n  - segment_id: 6\n    \"हिंदी ॰\": \"मेरा नाम श्रीधर है।\"\n    \"संस्कृत ॰\": \"मम नाम श्रीधर अस्ति।\"\n\n    layers:\n      facial_expression: \"Pleased, confident\"\n      audio_layer:\n        voice_tone: \"Calm, assertive\"\n      visual_layer:\n        character_action: \"Smiling and nodding\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' for stating one's own name.\" \n\n  - segment_id: 7\n    \"हिंदी ॰\": \"आप कहाँ से आए हैं?\"\n    \"संस्कृत ॰\": \"भवान् कुत्रतः आगतः?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, interested\"\n      audio_layer:\n        voice_tone: \"Curious, engaging\"\n      visual_layer:\n        character_action: \"Tilting head slightly, maintaining eye contact\"\n      \n    notes:\n      grammar_point: \"Asking about origin using 'कुत्रतः आगतः?'.\"\n\n  - segment_id: 8\n    \"हिंदी ॰\": \"मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।\"\n    \"संस्कृत ॰\": \"अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।\"\n    \n    layers:\n      facial_expression: \"Reflective, experienced\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Calm, storytelling\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Walking and gesturing towards the distant path\"\n      \n    notes:\n      grammar_point: \"Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'.\"\n\n  - segment_id: 9\n    \"हिंदी ॰\": \"बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\"\n    \"संस्कृत ॰\": \"सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\"\n    \n    layers:\n      facial_expression: \"Interested, engaged\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Curious, rising intonation\"\n      visual_layer:\n        character_action: \"Looking at the companion while walking side by side\"\n      \n    notes:\n      grammar_point: \"Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or').\"\n\n  - segment_id: 10\n    \"हिंदी ॰\": \"मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\"\n    \"संस्कृत ॰\": \"मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\"\n    \n    layers:\n      facial_expression: \"Knowledgeable, explanatory\"\n      audio_layer:\n        bgm: \"Soft animal sounds in the distance\"\n        voice_tone: \"Informative, steady\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Pointing towards the bushes as if indicating hidden animals\"\n      \n    notes:\n      grammar_point: \"Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors.\"",
       "title": "forest_encounter_01",
       "description": "A conversation between two travelers meeting in a forest.",
       "lines": [
         {
           "slot": 1,
-          "speaker_hint": "",
-          "content": "संस्कृत ॰",
-          "line_type": "sanskrit"
+          "content": "संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?",
+          "line_type": "sanskrit",
+          "segment_id": 1,
+          "layers": {
+            "facial_expression": "Smiling, friendly eye contact",
+            "audio_layer": {
+              "bgm": "Soft forest birds and wind",
+              "voice_tone": "Welcoming, rising intonation for the question",
+              "sanskrit_emphasis": "Focus on the 'visarga' in 'namah'"
+            },
+            "visual_layer": {
+              "background": "Dense foliage with stylized trees",
+              "character_action": "Raising right hand in a greeting gesture"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Focus on the root 'गम' (gam) for movement.",
+            "cultural_context": "The use of 'नमो नमः' as a standard respectful greeting."
+          },
+          "notes": "grammar_point: Focus on the root 'गम' (gam) for movement.; cultural_context: The use of 'नमो नमः' as a standard respectful greeting."
+        },
+        {
+          "slot": 2,
+          "content": "हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?",
+          "line_type": "hindi",
+          "segment_id": 1
+        },
+        {
+          "slot": 3,
+          "content": "संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।",
+          "line_type": "sanskrit",
+          "segment_id": 2,
+          "layers": {
+            "facial_expression": "Neutral, informative",
+            "audio_layer": {
+              "bgm": "Slightly louder rustling of leaves",
+              "voice_tone": "Steady, declarative"
+            },
+            "visual_layer": {
+              "background": "A path winding through the trees",
+              "character_action": "Pointing toward the horizon"
+            }
+          },
+          "grammar_notes": {
+            "derivation_analysis": {
+              "word": "गच्छामि",
+              "root": "गम्",
+              "analysis": "Present tense, corresponding to the speaker (I)"
+            }
+          },
+          "notes": "derivation_analysis: {'word': 'गच्छामि', 'root': 'गम्', 'analysis': 'Present tense, corresponding to the speaker (I)'}"
+        },
+        {
+          "slot": 4,
+          "content": "हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।",
+          "line_type": "hindi",
+          "segment_id": 2
+        },
+        {
+          "slot": 5,
+          "content": "संस्कृत ॰ किं भवान् मया सह चलिष्यति?",
+          "line_type": "sanskrit",
+          "segment_id": 3,
+          "layers": {
+            "facial_expression": "Inquisitive, hopeful",
+            "audio_layer": {
+              "voice_tone": "Inviting, melodic"
+            },
+            "visual_layer": {
+              "accent_elements": "Border patterns reminiscent of geometric folk motifs"
+            }
+          },
+          "grammar_notes": {
+            "usage": "Future tense construction using 'चलिष्यति'."
+          },
+          "notes": "usage: Future tense construction using 'चलिष्यति'."
+        },
+        {
+          "slot": 6,
+          "content": "हिंदी ॰ क्या आप मेरे साथ चलेंगे?",
+          "line_type": "hindi",
+          "segment_id": 3
+        },
+        {
+          "slot": 7,
+          "content": "संस्कृत ॰ आम्, अहं भवतः सह चलामि।",
+          "line_type": "sanskrit",
+          "segment_id": 4,
+          "layers": {
+            "facial_expression": "Happy, relieved",
+            "audio_layer": {
+              "voice_tone": "Affirmative, warm"
+            },
+            "visual_layer": {
+              "character_action": "Nodding and starting to walk alongside the other character"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
+          },
+          "notes": "grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
+        },
+        {
+          "slot": 8,
+          "content": "हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।",
+          "line_type": "hindi",
+          "segment_id": 4
+        },
+        {
+          "slot": 9,
+          "content": "संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?",
+          "line_type": "sanskrit",
+          "segment_id": 5,
+          "layers": {
+            "facial_expression": "Curious, friendly",
+            "audio_layer": {
+              "voice_tone": "Inquisitive, engaging"
+            },
+            "visual_layer": {
+              "character_action": "Extending hand for a handshake"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
+          },
+          "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
+        },
+        {
+          "slot": 10,
+          "content": "हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?",
+          "line_type": "hindi",
+          "segment_id": 5
+        },
+        {
+          "slot": 11,
+          "content": "संस्कृत ॰ मम नाम श्रीधर अस्ति।",
+          "line_type": "sanskrit",
+          "segment_id": 6,
+          "layers": {
+            "facial_expression": "Pleased, confident",
+            "audio_layer": {
+              "voice_tone": "Calm, assertive"
+            },
+            "visual_layer": {
+              "character_action": "Smiling and nodding"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Introduction using 'मम नाम ... अस्ति' for stating one's own name."
+          },
+          "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name."
+        },
+        {
+          "slot": 12,
+          "content": "हिंदी ॰ मेरा नाम श्रीधर है।",
+          "line_type": "hindi",
+          "segment_id": 6
+        },
+        {
+          "slot": 13,
+          "content": "संस्कृत ॰ भवान् कुत्रतः आगतः?",
+          "line_type": "sanskrit",
+          "segment_id": 7,
+          "layers": {
+            "facial_expression": "Inquisitive, interested",
+            "audio_layer": {
+              "voice_tone": "Curious, engaging"
+            },
+            "visual_layer": {
+              "character_action": "Tilting head slightly, maintaining eye contact"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Asking about origin using 'कुत्रतः आगतः?'."
+          },
+          "notes": "grammar_point: Asking about origin using 'कुत्रतः आगतः?'."
+        },
+        {
+          "slot": 14,
+          "content": "हिंदी ॰ आप कहाँ से आए हैं?",
+          "line_type": "hindi",
+          "segment_id": 7
+        },
+        {
+          "slot": 15,
+          "content": "संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।",
+          "line_type": "sanskrit",
+          "segment_id": 8,
+          "layers": {
+            "facial_expression": "Reflective, experienced",
+            "audio_layer": {
+              "bgm": "Soft forest birds and wind",
+              "voice_tone": "Calm, storytelling"
+            },
+            "visual_layer": {
+              "background": "A path winding through the trees",
+              "character_action": "Walking and gesturing towards the distant path"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
+          },
+          "notes": "grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
+        },
+        {
+          "slot": 16,
+          "content": "हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।",
+          "line_type": "hindi",
+          "segment_id": 8
+        },
+        {
+          "slot": 17,
+          "content": "संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?",
+          "line_type": "sanskrit",
+          "segment_id": 9,
+          "layers": {
+            "facial_expression": "Interested, engaged",
+            "audio_layer": {
+              "bgm": "Slightly louder rustling of leaves",
+              "voice_tone": "Curious, rising intonation"
+            },
+            "visual_layer": {
+              "character_action": "Looking at the companion while walking side by side"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
+          },
+          "notes": "grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
+        },
+        {
+          "slot": 18,
+          "content": "हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?",
+          "line_type": "hindi",
+          "segment_id": 9
+        },
+        {
+          "slot": 19,
+          "content": "संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।",
+          "line_type": "sanskrit",
+          "segment_id": 10,
+          "layers": {
+            "facial_expression": "Knowledgeable, explanatory",
+            "audio_layer": {
+              "bgm": "Soft animal sounds in the distance",
+              "voice_tone": "Informative, steady"
+            },
+            "visual_layer": {
+              "background": "Dense foliage with stylized trees",
+              "character_action": "Pointing towards the bushes as if indicating hidden animals"
+            }
+          },
+          "grammar_notes": {
+            "grammar_point": "Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
+          },
+          "notes": "grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
+        },
+        {
+          "slot": 20,
+          "content": "हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।",
+          "line_type": "hindi",
+          "segment_id": 10
         }
       ],
       "proposals": [],
-      "scene_metadata": {},
-      "line_count": 1,
+      "scene_metadata": {
+        "scene_id": "forest_encounter_01",
+        "context": "A conversation between two travelers meeting in a forest.",
+        "art_style": "Traditional regional folk art with vibrant line work",
+        "medium_of_instruction": "हिंदी",
+        "target_language": "संस्कृत",
+        "grammar_rules": {
+          "prathama_purusha": "I",
+          "uttama_purusha": "III"
+        }
+      },
+      "line_count": 20,
       "line_types": {
-        "sanskrit": 1,
-        "hindi": 0,
+        "sanskrit": 10,
+        "hindi": 10,
         "note": 0
       }
     }
