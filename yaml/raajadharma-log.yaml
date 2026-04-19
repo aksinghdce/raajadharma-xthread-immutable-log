@@ -218,3 +218,18 @@ updates:
   x_tweet_id: ''
   community_url: https://x.com/i/communities/1981771124343283876
   verified_by: []
+- entry_number: 10
+  date: '2026-04-19T08:49:04.981182'
+  actor_wallet: portal
+  action_type: portal_contact_lead
+  description: Portal submission via raajadharma.org — Career Application — Driver
+    & Firearms-Trained Security Specialist
+  lead_id: APP-TQKMMPVP
+  interest: Career Application — Driver & Firearms-Trained Security Specialist
+  email_hash: sha256:2583d0ed2d6385d39ee73e243206954855f46c1f1533ebea593d1439422ade7a
+  referrer: job:driver-firearms-security
+  media_hashes: []
+  ipfs_hashes: []
+  x_tweet_id: ''
+  community_url: https://x.com/i/communities/1981771124343283876
+  verified_by: []
