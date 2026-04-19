@@ -203,3 +203,18 @@ updates:
   x_tweet_id: ''
   community_url: https://x.com/i/communities/1981771124343283876
   verified_by: []
+- entry_number: 9
+  date: '2026-04-19T04:42:23.800102'
+  actor_wallet: portal
+  action_type: member_enrollment
+  description: Portal submission via raajadharma.org — Career Application — Vedic
+    Dhanurveda 3D Archery Trainer
+  lead_id: APP-JSCOHHT0
+  interest: Career Application — Vedic Dhanurveda 3D Archery Trainer
+  email_hash: sha256:2583d0ed2d6385d39ee73e243206954855f46c1f1533ebea593d1439422ade7a
+  referrer: job:vedic-3d-archery-trainer
+  media_hashes: []
+  ipfs_hashes: []
+  x_tweet_id: ''
+  community_url: https://x.com/i/communities/1981771124343283876
+  verified_by: []
