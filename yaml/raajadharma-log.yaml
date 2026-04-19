@@ -248,3 +248,18 @@ updates:
   x_tweet_id: ''
   community_url: https://x.com/i/communities/1981771124343283876
   verified_by: []
+- entry_number: 12
+  date: '2026-04-19T11:49:55.253597'
+  actor_wallet: portal
+  action_type: portal_contact_lead
+  description: Portal submission via raajadharma.org — Career Application — Tourism
+    Logistics & Legal Specialist
+  lead_id: APP-UXJLS5ZI
+  interest: Career Application — Tourism Logistics & Legal Specialist
+  email_hash: sha256:2583d0ed2d6385d39ee73e243206954855f46c1f1533ebea593d1439422ade7a
+  referrer: job:tourism-legal-logistics
+  media_hashes: []
+  ipfs_hashes: []
+  x_tweet_id: ''
+  community_url: https://x.com/i/communities/1981771124343283876
+  verified_by: []
