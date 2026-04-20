@@ -122,7 +122,19 @@
       "reset_expires": null,
       "created_at": "2024-01-01T00:00:00+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M010",
+      "email": "liberaldart@gmail.com",
+      "name": "Yogeek Inc.",
+      "role": "Member",
+      "firebase_uid": "z8wZohPem9OtPAxnFTqhUi1Hx893",
+      "password_hash": "",
+      "hash_algo": "firebase",
+      "email_verified": true,
+      "created_at": "2026-04-20T08:34:00.458025+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 10
+  "next_id": 11
 }
