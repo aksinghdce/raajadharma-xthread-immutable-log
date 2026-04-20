@@ -1,45 +1,141 @@
 {
-  "version": 14,
+  "version": 15,
   "finalized": false,
   "uploaded_by": "M005",
   "uploaded_at": "2026-04-18T02:10:12.011249+00:00",
-  "updated_at": "2026-04-20T04:38:04.834316+00:00",
+  "updated_at": "2026-04-20T04:42:47.545827+00:00",
   "current_script_id": "script-20260418T021012-2f5dff",
   "source_filename": "studio_script.json",
-  "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch\"\ncontext: \"A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.\"\nart_style: \"Traditional Indian classical with dharmic motifs\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join 6-month deep Sanskrit Sangati for Karmayoga Siddhi\"\n  hetu: \"Regular guided conversation practice purifies speech, clarifies thought, and aligns life with Rajadharma\"\n  drishtanta: \"Live interaction with selected Guru + Sangati with co-sadhaks on Rājadharmānusāsana Parva\"\n  nigaman: \"Strong call to action - Sign up today and transform your life through living Sanskrit dialogue\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।\"\n    \n    # Technical and Creative Layers for Video Recording\n    layers:\n      facial_expression: \"Warm, sincere eye contact with gentle smile\"\n      audio_layer:\n        bgm: \"Soft, uplifting traditional flute or veena with subtle nature sounds\"\n        voice_tone: \"Calm, inspiring, slow and clear with natural pauses after key Sanskrit terms\"\n        emphasis: \"Slight rise in energy on words like 'प्रतिज्ञा', 'कर्मयोग', and 'राजधर्मानुशासनपर्व'\"\n      visual_layer:\n        background: \"Subtle dharmic imagery - open book of Mahabharata, lotus, or forest ashram setting\"\n        character_action: \"Speaker standing or seated in traditional posture, with subtle hand gestures for emphasis\"\n      \n    notes:\n      nyaya_element: \"Pratijna - Clear proposition of the 6-month program\"\n      delivery_time: \"Approximately 2 to 2.5 minutes\"\n      cultural_context: \"Establishes the sacredness of Sanskrit as living dharma dialogue\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।\"\n    \n    layers:\n      facial_expression: \"Confident and earnest, with focused gaze\"\n      audio_layer:\n        bgm: \"Gentle rise in musical intensity\"\n        voice_tone: \"Steady, logical, building conviction\"\n        emphasis: \"Clear pronunciation and slight pause on 'हेतु', 'कर्मयोग सिद्धि', and 'राजधर्म'\"\n      visual_layer:\n        background: \"Fading in symbolic elements like scales of justice or flowing Sanskrit text\"\n        character_action: \"Open hand gestures explaining logic and benefits\"\n      \n    notes:\n      nyaya_element: \"Hetu - Logical reason supported by tradition and practice\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      grammar_point: \"Use of present and future implications in describing transformation\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।\"\n    \n    layers:\n      facial_expression: \"Enthusiastic and reassuring\"\n      audio_layer:\n        bgm: \"Warm, supportive undertone\"\n        voice_tone: \"Storytelling style, hopeful and encouraging\"\n        emphasis: \"Highlight 'संगति सेवा स्वरूप' and real transformation examples\"\n      visual_layer:\n        background: \"Soft visuals of group discussion circles or guru-shishya tradition\"\n        character_action: \"Gesturing towards imaginary participants or growth symbols\"\n      \n    notes:\n      nyaya_element: \"Drishtanta - Illustrative examples of benefits and program structure\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      cultural_context: \"Emphasizes living tradition of guru-guided sangati over passive learning\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।\"\n    \n    layers:\n      facial_expression: \"Warm, inviting smile with direct eye contact\"\n      audio_layer:\n        bgm: \"Gentle fade out with inspiring closing note\"\n        voice_tone: \"Passionate, conclusive, and action-oriented\"\n        emphasis: \"Strong stress on 'आज ही', 'साइन अप करें', and 'जय श्री राम'\"\n      visual_layer:\n        background: \"Clean call-to-action overlay with website link and signup button highlight\"\n        character_action: \"Open palms inviting gesture, followed by namaste\"\n      \n    notes:\n      nyaya_element: \"Nigaman - Logical conclusion leading to clear call-to-action\"\n      delivery_time: \"Approximately 1.5 to 2 minutes\"\n      usage: \"End with strong, memorable close suitable for video fade-out and on-screen text\"\n\n# End of Template",
-  "title": "raajadharma_sanskrit_sangati_pitch",
-  "description": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
+  "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch_conversational\"\ncontext: \"A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.\"\nart_style: \"Traditional Indian classical with dharmic motifs and subtle guru-shishya imagery\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join the living Sanskrit sangati in Garuda Karmayoga Shala\"\n  hetu: \"Guided conversation on Rājadharmānusāsana Parva purifies speech and aligns life with dharma\"\n  drishtanta: \"Personal guru guidance and co-sadhak interaction leading to karmayoga siddhi\"\n  nigaman: \"Clear call to sign up today and begin the divine journey\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार मित्रों, क्या आपने कभी सोचा है कि संस्कृत सिर्फ किताबी भाषा नहीं, बल्कि जीवन का जीवंत संवाद भी हो सकती है?\"\n    \"संस्कृत ॰\": \"नमस्कारः मित्राः, किं भवन्तः कदाचित् चिन्तितवन्तः यत् संस्कृतः केवलं पुस्तकीयभाषा न अपि तु जीवनस्य जीवन्तः संवादः अपि भवितुम् अर्हति?\"\n    \n    layers:\n      facial_expression: \"Warm welcoming smile with direct eye contact, slight head tilt showing curiosity\"\n      audio_layer:\n        bgm: \"Soft, serene flute with distant temple bells\"\n        voice_tone: \"Gentle, inviting, rising intonation to spark curiosity\"\n        sanskrit_emphasis: \"Clear pronunciation of 'संस्कृतः' and 'जीवन्तः संवादः'\"\n      visual_layer:\n        background: \"Calm ashram-like setting with open ancient manuscript and lotus flowers\"\n        character_action: \"Speaker gently raising hands in namaste gesture\"\n      \n    notes:\n      nature: \"Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue\"\n      nyaya_element: \"Opening Pratijna - Introducing the core proposition\"\n      delivery_time: \"Approximately 20-25 seconds\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"हमारे राजधर्मानुशासनपर्व पर आधारित इस संस्कृत संवाद अभ्यास में छह मास तक गुरुजी के साथ जुड़कर आप क्या सोचते हैं, क्या यह सिर्फ भाषा अभ्यास होगा या इससे ज्यादा कुछ?\"\n    \"संस्कृत ॰\": \"अस्माकं राजधर्मानुशासनपर्वणि आधारिते अस्मिन् संस्कृतसंवादाभ्यासे षण्मासान् यावत् गुरुभिः सह संयुज्य भवन्तः किं चिन्तयन्ति, किं एतत् केवलं भाषाभ्यासः भविष्यति उत तस्मात् अधिकं किमपि?\"\n    \n    layers:\n      facial_expression: \"Thoughtful and engaging, eyebrows slightly raised to invite reflection\"\n      audio_layer:\n        bgm: \"Soft veena undertone building interest\"\n        voice_tone: \"Curious, questioning tone driving deeper interest\"\n        emphasis: \"Pause after 'छह मास तक' and emphasis on 'गुरुजी के साथ'\"\n      visual_layer:\n        background: \"Fading in image of guru-shishya in traditional discussion under a tree\"\n        character_action: \"Open palm gesture as if asking a genuine question\"\n      \n    notes:\n      nature: \"Curiosity-driven follow-up questioning the depth of the practice beyond mere language\"\n      nyaya_element: \"Hetu - Building the logical reason through inquiry\"\n      delivery_time: \"Approximately 25-30 seconds\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में गुरु और साथियों के साथ संवाद करेंगे तो क्या लगता है, आपके विचार, वाणी और निर्णय कैसे बदल सकते हैं?\"\n    \"संस्कृत ॰\": \"यदा भवन्तः नियमितरूपेण राजधर्मस्य सिद्धान्तेषु संस्कृतेन गुरुभिः सहसाधकैः च सह संवादं करिष्यन्ति तदा किं मन्यन्ते, भवताम् विचाराः वाक् निर्णयाः च कथं परिवर्तितुम् अर्हन्ति?\"\n    \n    layers:\n      facial_expression: \"Earnest and hopeful, with subtle nod encouraging visualization\"\n      audio_layer:\n        bgm: \"Gentle rhythmic increase in warmth\"\n        voice_tone: \"Reflective yet inspiring, steady build-up\"\n        emphasis: \"Clear stress on 'विचार', 'वाणी' and 'निर्णय'\"\n      visual_layer:\n        background: \"Symbolic scales of justice blending into flowing Sanskrit text\"\n        character_action: \"Hand gestures showing transformation and clarity\"\n      \n    notes:\n      nature: \"Curiosity over previous idea - exploring personal transformation through the practice\"\n      nyaya_element: \"Drishtanta - Illustrating benefits via imagined real experience\"\n      delivery_time: \"Approximately 25-30 seconds\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"यदि यह अभ्यास आपके कर्मयोग को सिद्ध करने में मदद करे और आपको राजधर्म की दृष्टि दे तो क्या आप आज ही गरुड़ कर्मयोगशाला में साइन अप करके इस दिव्य यात्रा का हिस्सा बनना चाहेंगे?\"\n    \"संस्कृत ॰\": \"यदि एषः अभ्यासः भवताम् कर्मयोगस्य सिद्धौ सहायको भवेत् तथा च राजधर्मस्य दृष्टिं दद्यात् तर्हि किं भवन्तः अद्य एव गरुडकर्मयोगशालायां साइनअप् कृत्वा अस्य दिव्ययात्रायाः भागं कर्तुम् इच्छेयुः?\"\n    \n    layers:\n      facial_expression: \"Warm, confident smile with inviting direct gaze\"\n      audio_layer:\n        bgm: \"Uplifting close with inspiring final note\"\n        voice_tone: \"Passionate, conclusive and action-oriented\"\n        emphasis: \"Strong, clear call on 'आज ही' and 'साइन अप करके'\"\n      visual_layer:\n        background: \"Clean overlay with signup button and website link highlight\"\n        character_action: \"Open welcoming gesture turning into namaste\"\n      \n    notes:\n      nature: \"Curiosity-driven call to action building on the seed thought of personal benefit\"\n      nyaya_element: \"Nigaman - Logical conclusion compelling signup\"\n      delivery_time: \"Approximately 20-25 seconds\"\n\n# End of Template",
+  "title": "raajadharma_sanskrit_sangati_pitch_conversational",
+  "description": "A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.",
   "lines": [
     {
       "slot": 1,
-      "content": "हिंदी ॰ नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।",
+      "content": "संस्कृत ॰ नमस्कारः मित्राः, किं भवन्तः कदाचित् चिन्तितवन्तः यत् संस्कृतः केवलं पुस्तकीयभाषा न अपि तु जीवनस्य जीवन्तः संवादः अपि भवितुम् अर्हति?",
+      "line_type": "sanskrit",
+      "segment_id": 1,
+      "layers": {
+        "facial_expression": "Warm welcoming smile with direct eye contact, slight head tilt showing curiosity",
+        "audio_layer": {
+          "bgm": "Soft, serene flute with distant temple bells",
+          "voice_tone": "Gentle, inviting, rising intonation to spark curiosity",
+          "sanskrit_emphasis": "Clear pronunciation of 'संस्कृतः' and 'जीवन्तः संवादः'"
+        },
+        "visual_layer": {
+          "background": "Calm ashram-like setting with open ancient manuscript and lotus flowers",
+          "character_action": "Speaker gently raising hands in namaste gesture"
+        }
+      },
+      "grammar_notes": {
+        "nature": "Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue",
+        "nyaya_element": "Opening Pratijna - Introducing the core proposition",
+        "delivery_time": "Approximately 20-25 seconds"
+      },
+      "notes": "nature: Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue; nyaya_element: Opening Pratijna - Introducing the core proposition; delivery_time: Approximately 20-25 seconds"
+    },
+    {
+      "slot": 2,
+      "content": "हिंदी ॰ नमस्कार मित्रों, क्या आपने कभी सोचा है कि संस्कृत सिर्फ किताबी भाषा नहीं, बल्कि जीवन का जीवंत संवाद भी हो सकती है?",
       "line_type": "hindi",
       "segment_id": 1
     },
     {
-      "slot": 2,
-      "content": "हिंदी ॰ इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।",
+      "slot": 3,
+      "content": "संस्कृत ॰ अस्माकं राजधर्मानुशासनपर्वणि आधारिते अस्मिन् संस्कृतसंवादाभ्यासे षण्मासान् यावत् गुरुभिः सह संयुज्य भवन्तः किं चिन्तयन्ति, किं एतत् केवलं भाषाभ्यासः भविष्यति उत तस्मात् अधिकं किमपि?",
+      "line_type": "sanskrit",
+      "segment_id": 2,
+      "layers": {
+        "facial_expression": "Thoughtful and engaging, eyebrows slightly raised to invite reflection",
+        "audio_layer": {
+          "bgm": "Soft veena undertone building interest",
+          "voice_tone": "Curious, questioning tone driving deeper interest",
+          "emphasis": "Pause after 'छह मास तक' and emphasis on 'गुरुजी के साथ'"
+        },
+        "visual_layer": {
+          "background": "Fading in image of guru-shishya in traditional discussion under a tree",
+          "character_action": "Open palm gesture as if asking a genuine question"
+        }
+      },
+      "grammar_notes": {
+        "nature": "Curiosity-driven follow-up questioning the depth of the practice beyond mere language",
+        "nyaya_element": "Hetu - Building the logical reason through inquiry",
+        "delivery_time": "Approximately 25-30 seconds"
+      },
+      "notes": "nature: Curiosity-driven follow-up questioning the depth of the practice beyond mere language; nyaya_element: Hetu - Building the logical reason through inquiry; delivery_time: Approximately 25-30 seconds"
+    },
+    {
+      "slot": 4,
+      "content": "हिंदी ॰ हमारे राजधर्मानुशासनपर्व पर आधारित इस संस्कृत संवाद अभ्यास में छह मास तक गुरुजी के साथ जुड़कर आप क्या सोचते हैं, क्या यह सिर्फ भाषा अभ्यास होगा या इससे ज्यादा कुछ?",
       "line_type": "hindi",
       "segment_id": 2
     },
     {
-      "slot": 3,
-      "content": "हिंदी ॰ इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।",
+      "slot": 5,
+      "content": "संस्कृत ॰ यदा भवन्तः नियमितरूपेण राजधर्मस्य सिद्धान्तेषु संस्कृतेन गुरुभिः सहसाधकैः च सह संवादं करिष्यन्ति तदा किं मन्यन्ते, भवताम् विचाराः वाक् निर्णयाः च कथं परिवर्तितुम् अर्हन्ति?",
+      "line_type": "sanskrit",
+      "segment_id": 3,
+      "layers": {
+        "facial_expression": "Earnest and hopeful, with subtle nod encouraging visualization",
+        "audio_layer": {
+          "bgm": "Gentle rhythmic increase in warmth",
+          "voice_tone": "Reflective yet inspiring, steady build-up",
+          "emphasis": "Clear stress on 'विचार', 'वाणी' and 'निर्णय'"
+        },
+        "visual_layer": {
+          "background": "Symbolic scales of justice blending into flowing Sanskrit text",
+          "character_action": "Hand gestures showing transformation and clarity"
+        }
+      },
+      "grammar_notes": {
+        "nature": "Curiosity over previous idea - exploring personal transformation through the practice",
+        "nyaya_element": "Drishtanta - Illustrating benefits via imagined real experience",
+        "delivery_time": "Approximately 25-30 seconds"
+      },
+      "notes": "nature: Curiosity over previous idea - exploring personal transformation through the practice; nyaya_element: Drishtanta - Illustrating benefits via imagined real experience; delivery_time: Approximately 25-30 seconds"
+    },
+    {
+      "slot": 6,
+      "content": "हिंदी ॰ जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में गुरु और साथियों के साथ संवाद करेंगे तो क्या लगता है, आपके विचार, वाणी और निर्णय कैसे बदल सकते हैं?",
       "line_type": "hindi",
       "segment_id": 3
     },
     {
-      "slot": 4,
-      "content": "हिंदी ॰ अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।",
+      "slot": 7,
+      "content": "संस्कृत ॰ यदि एषः अभ्यासः भवताम् कर्मयोगस्य सिद्धौ सहायको भवेत् तथा च राजधर्मस्य दृष्टिं दद्यात् तर्हि किं भवन्तः अद्य एव गरुडकर्मयोगशालायां साइनअप् कृत्वा अस्य दिव्ययात्रायाः भागं कर्तुम् इच्छेयुः?",
+      "line_type": "sanskrit",
+      "segment_id": 4,
+      "layers": {
+        "facial_expression": "Warm, confident smile with inviting direct gaze",
+        "audio_layer": {
+          "bgm": "Uplifting close with inspiring final note",
+          "voice_tone": "Passionate, conclusive and action-oriented",
+          "emphasis": "Strong, clear call on 'आज ही' and 'साइन अप करके'"
+        },
+        "visual_layer": {
+          "background": "Clean overlay with signup button and website link highlight",
+          "character_action": "Open welcoming gesture turning into namaste"
+        }
+      },
+      "grammar_notes": {
+        "nature": "Curiosity-driven call to action building on the seed thought of personal benefit",
+        "nyaya_element": "Nigaman - Logical conclusion compelling signup",
+        "delivery_time": "Approximately 20-25 seconds"
+      },
+      "notes": "nature: Curiosity-driven call to action building on the seed thought of personal benefit; nyaya_element: Nigaman - Logical conclusion compelling signup; delivery_time: Approximately 20-25 seconds"
+    },
+    {
+      "slot": 8,
+      "content": "हिंदी ॰ यदि यह अभ्यास आपके कर्मयोग को सिद्ध करने में मदद करे और आपको राजधर्म की दृष्टि दे तो क्या आप आज ही गरुड़ कर्मयोगशाला में साइन अप करके इस दिव्य यात्रा का हिस्सा बनना चाहेंगे?",
       "line_type": "hindi",
       "segment_id": 4
     }
   ],
   "proposals": [],
   "scene_metadata": {
-    "scene_id": "raajadharma_sanskrit_sangati_pitch",
-    "context": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
-    "art_style": "Traditional Indian classical with dharmic motifs",
+    "scene_id": "raajadharma_sanskrit_sangati_pitch_conversational",
+    "context": "A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.",
+    "art_style": "Traditional Indian classical with dharmic motifs and subtle guru-shishya imagery",
     "medium_of_instruction": "हिंदी",
     "target_language": "संस्कृत",
     "grammar_rules": {}
@@ -406,55 +502,151 @@
     },
     {
       "id": "script-20260418T021012-2f5dff",
-      "version": 14,
+      "version": 15,
       "finalized": false,
       "finalized_by": null,
       "finalized_at": null,
       "uploaded_by": "M005",
       "uploaded_at": "2026-04-18T02:10:12.011249+00:00",
-      "updated_at": "2026-04-20T04:38:04.834316+00:00",
+      "updated_at": "2026-04-20T04:42:47.545827+00:00",
       "source_filename": "studio_script.json",
-      "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch\"\ncontext: \"A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.\"\nart_style: \"Traditional Indian classical with dharmic motifs\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join 6-month deep Sanskrit Sangati for Karmayoga Siddhi\"\n  hetu: \"Regular guided conversation practice purifies speech, clarifies thought, and aligns life with Rajadharma\"\n  drishtanta: \"Live interaction with selected Guru + Sangati with co-sadhaks on Rājadharmānusāsana Parva\"\n  nigaman: \"Strong call to action - Sign up today and transform your life through living Sanskrit dialogue\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।\"\n    \n    # Technical and Creative Layers for Video Recording\n    layers:\n      facial_expression: \"Warm, sincere eye contact with gentle smile\"\n      audio_layer:\n        bgm: \"Soft, uplifting traditional flute or veena with subtle nature sounds\"\n        voice_tone: \"Calm, inspiring, slow and clear with natural pauses after key Sanskrit terms\"\n        emphasis: \"Slight rise in energy on words like 'प्रतिज्ञा', 'कर्मयोग', and 'राजधर्मानुशासनपर्व'\"\n      visual_layer:\n        background: \"Subtle dharmic imagery - open book of Mahabharata, lotus, or forest ashram setting\"\n        character_action: \"Speaker standing or seated in traditional posture, with subtle hand gestures for emphasis\"\n      \n    notes:\n      nyaya_element: \"Pratijna - Clear proposition of the 6-month program\"\n      delivery_time: \"Approximately 2 to 2.5 minutes\"\n      cultural_context: \"Establishes the sacredness of Sanskrit as living dharma dialogue\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।\"\n    \n    layers:\n      facial_expression: \"Confident and earnest, with focused gaze\"\n      audio_layer:\n        bgm: \"Gentle rise in musical intensity\"\n        voice_tone: \"Steady, logical, building conviction\"\n        emphasis: \"Clear pronunciation and slight pause on 'हेतु', 'कर्मयोग सिद्धि', and 'राजधर्म'\"\n      visual_layer:\n        background: \"Fading in symbolic elements like scales of justice or flowing Sanskrit text\"\n        character_action: \"Open hand gestures explaining logic and benefits\"\n      \n    notes:\n      nyaya_element: \"Hetu - Logical reason supported by tradition and practice\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      grammar_point: \"Use of present and future implications in describing transformation\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।\"\n    \n    layers:\n      facial_expression: \"Enthusiastic and reassuring\"\n      audio_layer:\n        bgm: \"Warm, supportive undertone\"\n        voice_tone: \"Storytelling style, hopeful and encouraging\"\n        emphasis: \"Highlight 'संगति सेवा स्वरूप' and real transformation examples\"\n      visual_layer:\n        background: \"Soft visuals of group discussion circles or guru-shishya tradition\"\n        character_action: \"Gesturing towards imaginary participants or growth symbols\"\n      \n    notes:\n      nyaya_element: \"Drishtanta - Illustrative examples of benefits and program structure\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      cultural_context: \"Emphasizes living tradition of guru-guided sangati over passive learning\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।\"\n    \n    layers:\n      facial_expression: \"Warm, inviting smile with direct eye contact\"\n      audio_layer:\n        bgm: \"Gentle fade out with inspiring closing note\"\n        voice_tone: \"Passionate, conclusive, and action-oriented\"\n        emphasis: \"Strong stress on 'आज ही', 'साइन अप करें', and 'जय श्री राम'\"\n      visual_layer:\n        background: \"Clean call-to-action overlay with website link and signup button highlight\"\n        character_action: \"Open palms inviting gesture, followed by namaste\"\n      \n    notes:\n      nyaya_element: \"Nigaman - Logical conclusion leading to clear call-to-action\"\n      delivery_time: \"Approximately 1.5 to 2 minutes\"\n      usage: \"End with strong, memorable close suitable for video fade-out and on-screen text\"\n\n# End of Template",
-      "title": "raajadharma_sanskrit_sangati_pitch",
-      "description": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
+      "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch_conversational\"\ncontext: \"A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.\"\nart_style: \"Traditional Indian classical with dharmic motifs and subtle guru-shishya imagery\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join the living Sanskrit sangati in Garuda Karmayoga Shala\"\n  hetu: \"Guided conversation on Rājadharmānusāsana Parva purifies speech and aligns life with dharma\"\n  drishtanta: \"Personal guru guidance and co-sadhak interaction leading to karmayoga siddhi\"\n  nigaman: \"Clear call to sign up today and begin the divine journey\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार मित्रों, क्या आपने कभी सोचा है कि संस्कृत सिर्फ किताबी भाषा नहीं, बल्कि जीवन का जीवंत संवाद भी हो सकती है?\"\n    \"संस्कृत ॰\": \"नमस्कारः मित्राः, किं भवन्तः कदाचित् चिन्तितवन्तः यत् संस्कृतः केवलं पुस्तकीयभाषा न अपि तु जीवनस्य जीवन्तः संवादः अपि भवितुम् अर्हति?\"\n    \n    layers:\n      facial_expression: \"Warm welcoming smile with direct eye contact, slight head tilt showing curiosity\"\n      audio_layer:\n        bgm: \"Soft, serene flute with distant temple bells\"\n        voice_tone: \"Gentle, inviting, rising intonation to spark curiosity\"\n        sanskrit_emphasis: \"Clear pronunciation of 'संस्कृतः' and 'जीवन्तः संवादः'\"\n      visual_layer:\n        background: \"Calm ashram-like setting with open ancient manuscript and lotus flowers\"\n        character_action: \"Speaker gently raising hands in namaste gesture\"\n      \n    notes:\n      nature: \"Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue\"\n      nyaya_element: \"Opening Pratijna - Introducing the core proposition\"\n      delivery_time: \"Approximately 20-25 seconds\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"हमारे राजधर्मानुशासनपर्व पर आधारित इस संस्कृत संवाद अभ्यास में छह मास तक गुरुजी के साथ जुड़कर आप क्या सोचते हैं, क्या यह सिर्फ भाषा अभ्यास होगा या इससे ज्यादा कुछ?\"\n    \"संस्कृत ॰\": \"अस्माकं राजधर्मानुशासनपर्वणि आधारिते अस्मिन् संस्कृतसंवादाभ्यासे षण्मासान् यावत् गुरुभिः सह संयुज्य भवन्तः किं चिन्तयन्ति, किं एतत् केवलं भाषाभ्यासः भविष्यति उत तस्मात् अधिकं किमपि?\"\n    \n    layers:\n      facial_expression: \"Thoughtful and engaging, eyebrows slightly raised to invite reflection\"\n      audio_layer:\n        bgm: \"Soft veena undertone building interest\"\n        voice_tone: \"Curious, questioning tone driving deeper interest\"\n        emphasis: \"Pause after 'छह मास तक' and emphasis on 'गुरुजी के साथ'\"\n      visual_layer:\n        background: \"Fading in image of guru-shishya in traditional discussion under a tree\"\n        character_action: \"Open palm gesture as if asking a genuine question\"\n      \n    notes:\n      nature: \"Curiosity-driven follow-up questioning the depth of the practice beyond mere language\"\n      nyaya_element: \"Hetu - Building the logical reason through inquiry\"\n      delivery_time: \"Approximately 25-30 seconds\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में गुरु और साथियों के साथ संवाद करेंगे तो क्या लगता है, आपके विचार, वाणी और निर्णय कैसे बदल सकते हैं?\"\n    \"संस्कृत ॰\": \"यदा भवन्तः नियमितरूपेण राजधर्मस्य सिद्धान्तेषु संस्कृतेन गुरुभिः सहसाधकैः च सह संवादं करिष्यन्ति तदा किं मन्यन्ते, भवताम् विचाराः वाक् निर्णयाः च कथं परिवर्तितुम् अर्हन्ति?\"\n    \n    layers:\n      facial_expression: \"Earnest and hopeful, with subtle nod encouraging visualization\"\n      audio_layer:\n        bgm: \"Gentle rhythmic increase in warmth\"\n        voice_tone: \"Reflective yet inspiring, steady build-up\"\n        emphasis: \"Clear stress on 'विचार', 'वाणी' and 'निर्णय'\"\n      visual_layer:\n        background: \"Symbolic scales of justice blending into flowing Sanskrit text\"\n        character_action: \"Hand gestures showing transformation and clarity\"\n      \n    notes:\n      nature: \"Curiosity over previous idea - exploring personal transformation through the practice\"\n      nyaya_element: \"Drishtanta - Illustrating benefits via imagined real experience\"\n      delivery_time: \"Approximately 25-30 seconds\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"यदि यह अभ्यास आपके कर्मयोग को सिद्ध करने में मदद करे और आपको राजधर्म की दृष्टि दे तो क्या आप आज ही गरुड़ कर्मयोगशाला में साइन अप करके इस दिव्य यात्रा का हिस्सा बनना चाहेंगे?\"\n    \"संस्कृत ॰\": \"यदि एषः अभ्यासः भवताम् कर्मयोगस्य सिद्धौ सहायको भवेत् तथा च राजधर्मस्य दृष्टिं दद्यात् तर्हि किं भवन्तः अद्य एव गरुडकर्मयोगशालायां साइनअप् कृत्वा अस्य दिव्ययात्रायाः भागं कर्तुम् इच्छेयुः?\"\n    \n    layers:\n      facial_expression: \"Warm, confident smile with inviting direct gaze\"\n      audio_layer:\n        bgm: \"Uplifting close with inspiring final note\"\n        voice_tone: \"Passionate, conclusive and action-oriented\"\n        emphasis: \"Strong, clear call on 'आज ही' and 'साइन अप करके'\"\n      visual_layer:\n        background: \"Clean overlay with signup button and website link highlight\"\n        character_action: \"Open welcoming gesture turning into namaste\"\n      \n    notes:\n      nature: \"Curiosity-driven call to action building on the seed thought of personal benefit\"\n      nyaya_element: \"Nigaman - Logical conclusion compelling signup\"\n      delivery_time: \"Approximately 20-25 seconds\"\n\n# End of Template",
+      "title": "raajadharma_sanskrit_sangati_pitch_conversational",
+      "description": "A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.",
       "lines": [
         {
           "slot": 1,
-          "content": "हिंदी ॰ नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।",
+          "content": "संस्कृत ॰ नमस्कारः मित्राः, किं भवन्तः कदाचित् चिन्तितवन्तः यत् संस्कृतः केवलं पुस्तकीयभाषा न अपि तु जीवनस्य जीवन्तः संवादः अपि भवितुम् अर्हति?",
+          "line_type": "sanskrit",
+          "segment_id": 1,
+          "layers": {
+            "facial_expression": "Warm welcoming smile with direct eye contact, slight head tilt showing curiosity",
+            "audio_layer": {
+              "bgm": "Soft, serene flute with distant temple bells",
+              "voice_tone": "Gentle, inviting, rising intonation to spark curiosity",
+              "sanskrit_emphasis": "Clear pronunciation of 'संस्कृतः' and 'जीवन्तः संवादः'"
+            },
+            "visual_layer": {
+              "background": "Calm ashram-like setting with open ancient manuscript and lotus flowers",
+              "character_action": "Speaker gently raising hands in namaste gesture"
+            }
+          },
+          "grammar_notes": {
+            "nature": "Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue",
+            "nyaya_element": "Opening Pratijna - Introducing the core proposition",
+            "delivery_time": "Approximately 20-25 seconds"
+          },
+          "notes": "nature: Seed thought launching the conversation by planting curiosity about Sanskrit as living dialogue; nyaya_element: Opening Pratijna - Introducing the core proposition; delivery_time: Approximately 20-25 seconds"
+        },
+        {
+          "slot": 2,
+          "content": "हिंदी ॰ नमस्कार मित्रों, क्या आपने कभी सोचा है कि संस्कृत सिर्फ किताबी भाषा नहीं, बल्कि जीवन का जीवंत संवाद भी हो सकती है?",
           "line_type": "hindi",
           "segment_id": 1
         },
         {
-          "slot": 2,
-          "content": "हिंदी ॰ इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।",
+          "slot": 3,
+          "content": "संस्कृत ॰ अस्माकं राजधर्मानुशासनपर्वणि आधारिते अस्मिन् संस्कृतसंवादाभ्यासे षण्मासान् यावत् गुरुभिः सह संयुज्य भवन्तः किं चिन्तयन्ति, किं एतत् केवलं भाषाभ्यासः भविष्यति उत तस्मात् अधिकं किमपि?",
+          "line_type": "sanskrit",
+          "segment_id": 2,
+          "layers": {
+            "facial_expression": "Thoughtful and engaging, eyebrows slightly raised to invite reflection",
+            "audio_layer": {
+              "bgm": "Soft veena undertone building interest",
+              "voice_tone": "Curious, questioning tone driving deeper interest",
+              "emphasis": "Pause after 'छह मास तक' and emphasis on 'गुरुजी के साथ'"
+            },
+            "visual_layer": {
+              "background": "Fading in image of guru-shishya in traditional discussion under a tree",
+              "character_action": "Open palm gesture as if asking a genuine question"
+            }
+          },
+          "grammar_notes": {
+            "nature": "Curiosity-driven follow-up questioning the depth of the practice beyond mere language",
+            "nyaya_element": "Hetu - Building the logical reason through inquiry",
+            "delivery_time": "Approximately 25-30 seconds"
+          },
+          "notes": "nature: Curiosity-driven follow-up questioning the depth of the practice beyond mere language; nyaya_element: Hetu - Building the logical reason through inquiry; delivery_time: Approximately 25-30 seconds"
+        },
+        {
+          "slot": 4,
+          "content": "हिंदी ॰ हमारे राजधर्मानुशासनपर्व पर आधारित इस संस्कृत संवाद अभ्यास में छह मास तक गुरुजी के साथ जुड़कर आप क्या सोचते हैं, क्या यह सिर्फ भाषा अभ्यास होगा या इससे ज्यादा कुछ?",
           "line_type": "hindi",
           "segment_id": 2
         },
         {
-          "slot": 3,
-          "content": "हिंदी ॰ इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।",
+          "slot": 5,
+          "content": "संस्कृत ॰ यदा भवन्तः नियमितरूपेण राजधर्मस्य सिद्धान्तेषु संस्कृतेन गुरुभिः सहसाधकैः च सह संवादं करिष्यन्ति तदा किं मन्यन्ते, भवताम् विचाराः वाक् निर्णयाः च कथं परिवर्तितुम् अर्हन्ति?",
+          "line_type": "sanskrit",
+          "segment_id": 3,
+          "layers": {
+            "facial_expression": "Earnest and hopeful, with subtle nod encouraging visualization",
+            "audio_layer": {
+              "bgm": "Gentle rhythmic increase in warmth",
+              "voice_tone": "Reflective yet inspiring, steady build-up",
+              "emphasis": "Clear stress on 'विचार', 'वाणी' and 'निर्णय'"
+            },
+            "visual_layer": {
+              "background": "Symbolic scales of justice blending into flowing Sanskrit text",
+              "character_action": "Hand gestures showing transformation and clarity"
+            }
+          },
+          "grammar_notes": {
+            "nature": "Curiosity over previous idea - exploring personal transformation through the practice",
+            "nyaya_element": "Drishtanta - Illustrating benefits via imagined real experience",
+            "delivery_time": "Approximately 25-30 seconds"
+          },
+          "notes": "nature: Curiosity over previous idea - exploring personal transformation through the practice; nyaya_element: Drishtanta - Illustrating benefits via imagined real experience; delivery_time: Approximately 25-30 seconds"
+        },
+        {
+          "slot": 6,
+          "content": "हिंदी ॰ जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में गुरु और साथियों के साथ संवाद करेंगे तो क्या लगता है, आपके विचार, वाणी और निर्णय कैसे बदल सकते हैं?",
           "line_type": "hindi",
           "segment_id": 3
         },
         {
-          "slot": 4,
-          "content": "हिंदी ॰ अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।",
+          "slot": 7,
+          "content": "संस्कृत ॰ यदि एषः अभ्यासः भवताम् कर्मयोगस्य सिद्धौ सहायको भवेत् तथा च राजधर्मस्य दृष्टिं दद्यात् तर्हि किं भवन्तः अद्य एव गरुडकर्मयोगशालायां साइनअप् कृत्वा अस्य दिव्ययात्रायाः भागं कर्तुम् इच्छेयुः?",
+          "line_type": "sanskrit",
+          "segment_id": 4,
+          "layers": {
+            "facial_expression": "Warm, confident smile with inviting direct gaze",
+            "audio_layer": {
+              "bgm": "Uplifting close with inspiring final note",
+              "voice_tone": "Passionate, conclusive and action-oriented",
+              "emphasis": "Strong, clear call on 'आज ही' and 'साइन अप करके'"
+            },
+            "visual_layer": {
+              "background": "Clean overlay with signup button and website link highlight",
+              "character_action": "Open welcoming gesture turning into namaste"
+            }
+          },
+          "grammar_notes": {
+            "nature": "Curiosity-driven call to action building on the seed thought of personal benefit",
+            "nyaya_element": "Nigaman - Logical conclusion compelling signup",
+            "delivery_time": "Approximately 20-25 seconds"
+          },
+          "notes": "nature: Curiosity-driven call to action building on the seed thought of personal benefit; nyaya_element: Nigaman - Logical conclusion compelling signup; delivery_time: Approximately 20-25 seconds"
+        },
+        {
+          "slot": 8,
+          "content": "हिंदी ॰ यदि यह अभ्यास आपके कर्मयोग को सिद्ध करने में मदद करे और आपको राजधर्म की दृष्टि दे तो क्या आप आज ही गरुड़ कर्मयोगशाला में साइन अप करके इस दिव्य यात्रा का हिस्सा बनना चाहेंगे?",
           "line_type": "hindi",
           "segment_id": 4
         }
       ],
       "proposals": [],
       "scene_metadata": {
-        "scene_id": "raajadharma_sanskrit_sangati_pitch",
-        "context": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
-        "art_style": "Traditional Indian classical with dharmic motifs",
+        "scene_id": "raajadharma_sanskrit_sangati_pitch_conversational",
+        "context": "A motivational spoken presentation styled as a natural, curiosity-driven dialogue to encourage signup for the Sanskrit Conversation Practice program. Delivered as a video recording for raajadharma.org, structured in short conversational segments following Nyaya principles.",
+        "art_style": "Traditional Indian classical with dharmic motifs and subtle guru-shishya imagery",
         "medium_of_instruction": "हिंदी",
         "target_language": "संस्कृत",
         "grammar_rules": {}
       },
-      "line_count": 4,
+      "line_count": 8,
       "line_types": {
-        "sanskrit": 0,
+        "sanskrit": 4,
         "hindi": 4,
         "note": 0
       }
