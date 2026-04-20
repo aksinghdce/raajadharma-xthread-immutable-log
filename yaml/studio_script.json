@@ -1,292 +1,48 @@
 {
-  "version": 13,
+  "version": 14,
   "finalized": false,
-  "uploaded_by": "M006",
+  "uploaded_by": "M005",
   "uploaded_at": "2026-04-18T02:10:12.011249+00:00",
-  "updated_at": "2026-04-19T22:04:57.020530+00:00",
+  "updated_at": "2026-04-20T04:38:04.834316+00:00",
   "current_script_id": "script-20260418T021012-2f5dff",
   "source_filename": "studio_script.json",
-  "source_yaml": "# Metadata for the Language Learning Scene\nscene_id: \"forest_encounter_01\"\ncontext: \"A conversation between two travelers meeting in a forest.\"\nart_style: \"Traditional regional folk art with vibrant line work\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Grammatical Mapping Configuration\n# Note: Following the project-specific mapping for purusha categorization\ngrammar_rules:\n  prathama_purusha: \"I\"\n  uttama_purusha: \"III\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्ते मित्र, आप कहाँ जा रहे हैं?\"\n    \"संस्कृत ॰\": \"नमो नमः मित्र, भवान् कुत्र गच्छति?\"\n    \n    # Technical and Creative Layers\n    layers:\n      facial_expression: \"Smiling, friendly eye contact\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Welcoming, rising intonation for the question\"\n        sanskrit_emphasis: \"Focus on the 'visarga' in 'namah'\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Raising right hand in a greeting gesture\"\n      \n    notes:\n      grammar_point: \"Focus on the root 'गम' (gam) for movement.\"\n      cultural_context: \"The use of 'नमो नमः' as a standard respectful greeting.\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"मैं ग्राम की ओर जा रहा हूँ।\"\n    \"संस्कृत ॰\": \"अहं ग्रामं प्रति गच्छामि।\"\n    \n    layers:\n      facial_expression: \"Neutral, informative\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Steady, declarative\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Pointing toward the horizon\"\n      \n    notes:\n      derivation_analysis:\n        word: \"गच्छामि\"\n        root: \"गम्\"\n        analysis: \"Present tense, corresponding to the speaker (I)\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"क्या आप मेरे साथ चलेंगे?\"\n    \"संस्कृत ॰\": \"किं भवान् मया सह चलिष्यति?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, hopeful\"\n      audio_layer:\n        voice_tone: \"Inviting, melodic\"\n      visual_layer:\n        accent_elements: \"Border patterns reminiscent of geometric folk motifs\"\n      \n    notes:\n      usage: \"Future tense construction using 'चलिष्यति'.\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"हाँ, मैं आपके साथ चलूँगा।\"\n    \"संस्कृत ॰\": \"आम्, अहं भवतः सह चलामि।\"\n    \n    layers:\n      facial_expression: \"Happy, relieved\"\n      audio_layer:\n        voice_tone: \"Affirmative, warm\"\n      visual_layer:\n        character_action: \"Nodding and starting to walk alongside the other character\"\n      \n    notes:\n      grammar_point: \"Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb.\"\n\n  - segment_id: 5\n    \"हिंदी ॰\": \"मेरा नाम अर्जुन है। आपका नाम क्या है?\"\n    \"संस्कृत ॰\": \"मम नाम अर्जुन अस्ति। भवतः नाम किम्?\"\n    \n    layers:\n      facial_expression: \"Curious, friendly\"\n      audio_layer:\n        voice_tone: \"Inquisitive, engaging\"\n      visual_layer:\n        character_action: \"Extending hand for a handshake\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'.\"\n\n  - segment_id: 6\n    \"हिंदी ॰\": \"मेरा नाम श्रीधर है।\"\n    \"संस्कृत ॰\": \"मम नाम श्रीधर अस्ति।\"\n\n    layers:\n      facial_expression: \"Pleased, confident\"\n      audio_layer:\n        voice_tone: \"Calm, assertive\"\n      visual_layer:\n        character_action: \"Smiling and nodding\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' for stating one's own name.\" \n\n  - segment_id: 7\n    \"हिंदी ॰\": \"आप कहाँ से आए हैं?\"\n    \"संस्कृत ॰\": \"भवान् कुत्रतः आगतः?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, interested\"\n      audio_layer:\n        voice_tone: \"Curious, engaging\"\n      visual_layer:\n        character_action: \"Tilting head slightly, maintaining eye contact\"\n      \n    notes:\n      grammar_point: \"Asking about origin using 'कुत्रतः आगतः?'.\"\n\n  - segment_id: 8\n    \"हिंदी ॰\": \"मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।\"\n    \"संस्कृत ॰\": \"अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।\"\n    \n    layers:\n      facial_expression: \"Reflective, experienced\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Calm, storytelling\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Walking and gesturing towards the distant path\"\n      \n    notes:\n      grammar_point: \"Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'.\"\n\n  - segment_id: 9\n    \"हिंदी ॰\": \"बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\"\n    \"संस्कृत ॰\": \"सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\"\n    \n    layers:\n      facial_expression: \"Interested, engaged\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Curious, rising intonation\"\n      visual_layer:\n        character_action: \"Looking at the companion while walking side by side\"\n      \n    notes:\n      grammar_point: \"Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or').\"\n\n  - segment_id: 10\n    \"हिंदी ॰\": \"मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\"\n    \"संस्कृत ॰\": \"मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\"\n    \n    layers:\n      facial_expression: \"Knowledgeable, explanatory\"\n      audio_layer:\n        bgm: \"Soft animal sounds in the distance\"\n        voice_tone: \"Informative, steady\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Pointing towards the bushes as if indicating hidden animals\"\n      \n    notes:\n      grammar_point: \"Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors.\"",
-  "title": "forest_encounter_01",
-  "description": "A conversation between two travelers meeting in a forest.",
+  "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch\"\ncontext: \"A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.\"\nart_style: \"Traditional Indian classical with dharmic motifs\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join 6-month deep Sanskrit Sangati for Karmayoga Siddhi\"\n  hetu: \"Regular guided conversation practice purifies speech, clarifies thought, and aligns life with Rajadharma\"\n  drishtanta: \"Live interaction with selected Guru + Sangati with co-sadhaks on Rājadharmānusāsana Parva\"\n  nigaman: \"Strong call to action - Sign up today and transform your life through living Sanskrit dialogue\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।\"\n    \n    # Technical and Creative Layers for Video Recording\n    layers:\n      facial_expression: \"Warm, sincere eye contact with gentle smile\"\n      audio_layer:\n        bgm: \"Soft, uplifting traditional flute or veena with subtle nature sounds\"\n        voice_tone: \"Calm, inspiring, slow and clear with natural pauses after key Sanskrit terms\"\n        emphasis: \"Slight rise in energy on words like 'प्रतिज्ञा', 'कर्मयोग', and 'राजधर्मानुशासनपर्व'\"\n      visual_layer:\n        background: \"Subtle dharmic imagery - open book of Mahabharata, lotus, or forest ashram setting\"\n        character_action: \"Speaker standing or seated in traditional posture, with subtle hand gestures for emphasis\"\n      \n    notes:\n      nyaya_element: \"Pratijna - Clear proposition of the 6-month program\"\n      delivery_time: \"Approximately 2 to 2.5 minutes\"\n      cultural_context: \"Establishes the sacredness of Sanskrit as living dharma dialogue\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।\"\n    \n    layers:\n      facial_expression: \"Confident and earnest, with focused gaze\"\n      audio_layer:\n        bgm: \"Gentle rise in musical intensity\"\n        voice_tone: \"Steady, logical, building conviction\"\n        emphasis: \"Clear pronunciation and slight pause on 'हेतु', 'कर्मयोग सिद्धि', and 'राजधर्म'\"\n      visual_layer:\n        background: \"Fading in symbolic elements like scales of justice or flowing Sanskrit text\"\n        character_action: \"Open hand gestures explaining logic and benefits\"\n      \n    notes:\n      nyaya_element: \"Hetu - Logical reason supported by tradition and practice\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      grammar_point: \"Use of present and future implications in describing transformation\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।\"\n    \n    layers:\n      facial_expression: \"Enthusiastic and reassuring\"\n      audio_layer:\n        bgm: \"Warm, supportive undertone\"\n        voice_tone: \"Storytelling style, hopeful and encouraging\"\n        emphasis: \"Highlight 'संगति सेवा स्वरूप' and real transformation examples\"\n      visual_layer:\n        background: \"Soft visuals of group discussion circles or guru-shishya tradition\"\n        character_action: \"Gesturing towards imaginary participants or growth symbols\"\n      \n    notes:\n      nyaya_element: \"Drishtanta - Illustrative examples of benefits and program structure\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      cultural_context: \"Emphasizes living tradition of guru-guided sangati over passive learning\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।\"\n    \n    layers:\n      facial_expression: \"Warm, inviting smile with direct eye contact\"\n      audio_layer:\n        bgm: \"Gentle fade out with inspiring closing note\"\n        voice_tone: \"Passionate, conclusive, and action-oriented\"\n        emphasis: \"Strong stress on 'आज ही', 'साइन अप करें', and 'जय श्री राम'\"\n      visual_layer:\n        background: \"Clean call-to-action overlay with website link and signup button highlight\"\n        character_action: \"Open palms inviting gesture, followed by namaste\"\n      \n    notes:\n      nyaya_element: \"Nigaman - Logical conclusion leading to clear call-to-action\"\n      delivery_time: \"Approximately 1.5 to 2 minutes\"\n      usage: \"End with strong, memorable close suitable for video fade-out and on-screen text\"\n\n# End of Template",
+  "title": "raajadharma_sanskrit_sangati_pitch",
+  "description": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
   "lines": [
     {
       "slot": 1,
-      "content": "संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?",
-      "line_type": "sanskrit",
-      "segment_id": 1,
-      "layers": {
-        "facial_expression": "Smiling, friendly eye contact",
-        "audio_layer": {
-          "bgm": "Soft forest birds and wind",
-          "voice_tone": "Welcoming, rising intonation for the question",
-          "sanskrit_emphasis": "Focus on the 'visarga' in 'namah'"
-        },
-        "visual_layer": {
-          "background": "Dense foliage with stylized trees",
-          "character_action": "Raising right hand in a greeting gesture"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Focus on the root 'गम' (gam) for movement.",
-        "cultural_context": "The use of 'नमो नमः' as a standard respectful greeting."
-      },
-      "notes": "grammar_point: Focus on the root 'गम' (gam) for movement.; cultural_context: The use of 'नमो नमः' as a standard respectful greeting."
-    },
-    {
-      "slot": 2,
-      "content": "हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?",
+      "content": "हिंदी ॰ नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।",
       "line_type": "hindi",
       "segment_id": 1
     },
     {
-      "slot": 3,
-      "content": "संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।",
-      "line_type": "sanskrit",
-      "segment_id": 2,
-      "layers": {
-        "facial_expression": "Neutral, informative",
-        "audio_layer": {
-          "bgm": "Slightly louder rustling of leaves",
-          "voice_tone": "Steady, declarative"
-        },
-        "visual_layer": {
-          "background": "A path winding through the trees",
-          "character_action": "Pointing toward the horizon"
-        }
-      },
-      "grammar_notes": {
-        "derivation_analysis": {
-          "word": "गच्छामि",
-          "root": "गम्",
-          "analysis": "Present tense, corresponding to the speaker (I)"
-        }
-      },
-      "notes": "derivation_analysis: {'word': 'गच्छामि', 'root': 'गम्', 'analysis': 'Present tense, corresponding to the speaker (I)'}"
-    },
-    {
-      "slot": 4,
-      "content": "हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।",
+      "slot": 2,
+      "content": "हिंदी ॰ इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।",
       "line_type": "hindi",
       "segment_id": 2
     },
     {
-      "slot": 5,
-      "content": "संस्कृत ॰ किं भवान् मया सह चलिष्यति?",
-      "line_type": "sanskrit",
-      "segment_id": 3,
-      "layers": {
-        "facial_expression": "Inquisitive, hopeful",
-        "audio_layer": {
-          "voice_tone": "Inviting, melodic"
-        },
-        "visual_layer": {
-          "accent_elements": "Border patterns reminiscent of geometric folk motifs"
-        }
-      },
-      "grammar_notes": {
-        "usage": "Future tense construction using 'चलिष्यति'."
-      },
-      "notes": "usage: Future tense construction using 'चलिष्यति'."
-    },
-    {
-      "slot": 6,
-      "content": "हिंदी ॰ क्या आप मेरे साथ चलेंगे?",
+      "slot": 3,
+      "content": "हिंदी ॰ इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।",
       "line_type": "hindi",
       "segment_id": 3
     },
     {
-      "slot": 7,
-      "content": "संस्कृत ॰ आम्, अहं भवतः सह चलामि।",
-      "line_type": "sanskrit",
-      "segment_id": 4,
-      "layers": {
-        "facial_expression": "Happy, relieved",
-        "audio_layer": {
-          "voice_tone": "Affirmative, warm"
-        },
-        "visual_layer": {
-          "character_action": "Nodding and starting to walk alongside the other character"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
-      },
-      "notes": "grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
-    },
-    {
-      "slot": 8,
-      "content": "हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।",
+      "slot": 4,
+      "content": "हिंदी ॰ अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।",
       "line_type": "hindi",
       "segment_id": 4
-    },
-    {
-      "slot": 9,
-      "content": "संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?",
-      "line_type": "sanskrit",
-      "segment_id": 5,
-      "layers": {
-        "facial_expression": "Curious, friendly",
-        "audio_layer": {
-          "voice_tone": "Inquisitive, engaging"
-        },
-        "visual_layer": {
-          "character_action": "Extending hand for a handshake"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
-      },
-      "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
-    },
-    {
-      "slot": 10,
-      "content": "हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?",
-      "line_type": "hindi",
-      "segment_id": 5
-    },
-    {
-      "slot": 11,
-      "content": "संस्कृत ॰ मम नाम श्रीधर अस्ति।",
-      "line_type": "sanskrit",
-      "segment_id": 6,
-      "layers": {
-        "facial_expression": "Pleased, confident",
-        "audio_layer": {
-          "voice_tone": "Calm, assertive"
-        },
-        "visual_layer": {
-          "character_action": "Smiling and nodding"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Introduction using 'मम नाम ... अस्ति' for stating one's own name."
-      },
-      "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name."
-    },
-    {
-      "slot": 12,
-      "content": "हिंदी ॰ मेरा नाम श्रीधर है।",
-      "line_type": "hindi",
-      "segment_id": 6
-    },
-    {
-      "slot": 13,
-      "content": "संस्कृत ॰ भवान् कुत्रतः आगतः?",
-      "line_type": "sanskrit",
-      "segment_id": 7,
-      "layers": {
-        "facial_expression": "Inquisitive, interested",
-        "audio_layer": {
-          "voice_tone": "Curious, engaging"
-        },
-        "visual_layer": {
-          "character_action": "Tilting head slightly, maintaining eye contact"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Asking about origin using 'कुत्रतः आगतः?'."
-      },
-      "notes": "grammar_point: Asking about origin using 'कुत्रतः आगतः?'."
-    },
-    {
-      "slot": 14,
-      "content": "हिंदी ॰ आप कहाँ से आए हैं?",
-      "line_type": "hindi",
-      "segment_id": 7
-    },
-    {
-      "slot": 15,
-      "content": "संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।",
-      "line_type": "sanskrit",
-      "segment_id": 8,
-      "layers": {
-        "facial_expression": "Reflective, experienced",
-        "audio_layer": {
-          "bgm": "Soft forest birds and wind",
-          "voice_tone": "Calm, storytelling"
-        },
-        "visual_layer": {
-          "background": "A path winding through the trees",
-          "character_action": "Walking and gesturing towards the distant path"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
-      },
-      "notes": "grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
-    },
-    {
-      "slot": 16,
-      "content": "हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।",
-      "line_type": "hindi",
-      "segment_id": 8
-    },
-    {
-      "slot": 17,
-      "content": "संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?",
-      "line_type": "sanskrit",
-      "segment_id": 9,
-      "layers": {
-        "facial_expression": "Interested, engaged",
-        "audio_layer": {
-          "bgm": "Slightly louder rustling of leaves",
-          "voice_tone": "Curious, rising intonation"
-        },
-        "visual_layer": {
-          "character_action": "Looking at the companion while walking side by side"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
-      },
-      "notes": "grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
-    },
-    {
-      "slot": 18,
-      "content": "हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?",
-      "line_type": "hindi",
-      "segment_id": 9
-    },
-    {
-      "slot": 19,
-      "content": "संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।",
-      "line_type": "sanskrit",
-      "segment_id": 10,
-      "layers": {
-        "facial_expression": "Knowledgeable, explanatory",
-        "audio_layer": {
-          "bgm": "Soft animal sounds in the distance",
-          "voice_tone": "Informative, steady"
-        },
-        "visual_layer": {
-          "background": "Dense foliage with stylized trees",
-          "character_action": "Pointing towards the bushes as if indicating hidden animals"
-        }
-      },
-      "grammar_notes": {
-        "grammar_point": "Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
-      },
-      "notes": "grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
-    },
-    {
-      "slot": 20,
-      "content": "हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।",
-      "line_type": "hindi",
-      "segment_id": 10
     }
   ],
   "proposals": [],
   "scene_metadata": {
-    "scene_id": "forest_encounter_01",
-    "context": "A conversation between two travelers meeting in a forest.",
-    "art_style": "Traditional regional folk art with vibrant line work",
+    "scene_id": "raajadharma_sanskrit_sangati_pitch",
+    "context": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
+    "art_style": "Traditional Indian classical with dharmic motifs",
     "medium_of_instruction": "हिंदी",
     "target_language": "संस्कृत",
-    "grammar_rules": {
-      "prathama_purusha": "I",
-      "uttama_purusha": "III"
-    }
+    "grammar_rules": {}
   },
   "archives": [
     {
@@ -650,300 +406,56 @@
     },
     {
       "id": "script-20260418T021012-2f5dff",
-      "version": 13,
+      "version": 14,
       "finalized": false,
       "finalized_by": null,
       "finalized_at": null,
-      "uploaded_by": "M006",
+      "uploaded_by": "M005",
       "uploaded_at": "2026-04-18T02:10:12.011249+00:00",
-      "updated_at": "2026-04-19T22:04:57.020530+00:00",
+      "updated_at": "2026-04-20T04:38:04.834316+00:00",
       "source_filename": "studio_script.json",
-      "source_yaml": "# Metadata for the Language Learning Scene\nscene_id: \"forest_encounter_01\"\ncontext: \"A conversation between two travelers meeting in a forest.\"\nart_style: \"Traditional regional folk art with vibrant line work\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Grammatical Mapping Configuration\n# Note: Following the project-specific mapping for purusha categorization\ngrammar_rules:\n  prathama_purusha: \"I\"\n  uttama_purusha: \"III\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्ते मित्र, आप कहाँ जा रहे हैं?\"\n    \"संस्कृत ॰\": \"नमो नमः मित्र, भवान् कुत्र गच्छति?\"\n    \n    # Technical and Creative Layers\n    layers:\n      facial_expression: \"Smiling, friendly eye contact\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Welcoming, rising intonation for the question\"\n        sanskrit_emphasis: \"Focus on the 'visarga' in 'namah'\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Raising right hand in a greeting gesture\"\n      \n    notes:\n      grammar_point: \"Focus on the root 'गम' (gam) for movement.\"\n      cultural_context: \"The use of 'नमो नमः' as a standard respectful greeting.\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"मैं ग्राम की ओर जा रहा हूँ।\"\n    \"संस्कृत ॰\": \"अहं ग्रामं प्रति गच्छामि।\"\n    \n    layers:\n      facial_expression: \"Neutral, informative\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Steady, declarative\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Pointing toward the horizon\"\n      \n    notes:\n      derivation_analysis:\n        word: \"गच्छामि\"\n        root: \"गम्\"\n        analysis: \"Present tense, corresponding to the speaker (I)\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"क्या आप मेरे साथ चलेंगे?\"\n    \"संस्कृत ॰\": \"किं भवान् मया सह चलिष्यति?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, hopeful\"\n      audio_layer:\n        voice_tone: \"Inviting, melodic\"\n      visual_layer:\n        accent_elements: \"Border patterns reminiscent of geometric folk motifs\"\n      \n    notes:\n      usage: \"Future tense construction using 'चलिष्यति'.\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"हाँ, मैं आपके साथ चलूँगा।\"\n    \"संस्कृत ॰\": \"आम्, अहं भवतः सह चलामि।\"\n    \n    layers:\n      facial_expression: \"Happy, relieved\"\n      audio_layer:\n        voice_tone: \"Affirmative, warm\"\n      visual_layer:\n        character_action: \"Nodding and starting to walk alongside the other character\"\n      \n    notes:\n      grammar_point: \"Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb.\"\n\n  - segment_id: 5\n    \"हिंदी ॰\": \"मेरा नाम अर्जुन है। आपका नाम क्या है?\"\n    \"संस्कृत ॰\": \"मम नाम अर्जुन अस्ति। भवतः नाम किम्?\"\n    \n    layers:\n      facial_expression: \"Curious, friendly\"\n      audio_layer:\n        voice_tone: \"Inquisitive, engaging\"\n      visual_layer:\n        character_action: \"Extending hand for a handshake\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'.\"\n\n  - segment_id: 6\n    \"हिंदी ॰\": \"मेरा नाम श्रीधर है।\"\n    \"संस्कृत ॰\": \"मम नाम श्रीधर अस्ति।\"\n\n    layers:\n      facial_expression: \"Pleased, confident\"\n      audio_layer:\n        voice_tone: \"Calm, assertive\"\n      visual_layer:\n        character_action: \"Smiling and nodding\"\n      \n    notes:\n      grammar_point: \"Introduction using 'मम नाम ... अस्ति' for stating one's own name.\" \n\n  - segment_id: 7\n    \"हिंदी ॰\": \"आप कहाँ से आए हैं?\"\n    \"संस्कृत ॰\": \"भवान् कुत्रतः आगतः?\"\n    \n    layers:\n      facial_expression: \"Inquisitive, interested\"\n      audio_layer:\n        voice_tone: \"Curious, engaging\"\n      visual_layer:\n        character_action: \"Tilting head slightly, maintaining eye contact\"\n      \n    notes:\n      grammar_point: \"Asking about origin using 'कुत्रतः आगतः?'.\"\n\n  - segment_id: 8\n    \"हिंदी ॰\": \"मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।\"\n    \"संस्कृत ॰\": \"अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।\"\n    \n    layers:\n      facial_expression: \"Reflective, experienced\"\n      audio_layer:\n        bgm: \"Soft forest birds and wind\"\n        voice_tone: \"Calm, storytelling\"\n      visual_layer:\n        background: \"A path winding through the trees\"\n        character_action: \"Walking and gesturing towards the distant path\"\n      \n    notes:\n      grammar_point: \"Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'.\"\n\n  - segment_id: 9\n    \"हिंदी ॰\": \"बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?\"\n    \"संस्कृत ॰\": \"सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?\"\n    \n    layers:\n      facial_expression: \"Interested, engaged\"\n      audio_layer:\n        bgm: \"Slightly louder rustling of leaves\"\n        voice_tone: \"Curious, rising intonation\"\n      visual_layer:\n        character_action: \"Looking at the companion while walking side by side\"\n      \n    notes:\n      grammar_point: \"Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or').\"\n\n  - segment_id: 10\n    \"हिंदी ॰\": \"मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।\"\n    \"संस्कृत ॰\": \"मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।\"\n    \n    layers:\n      facial_expression: \"Knowledgeable, explanatory\"\n      audio_layer:\n        bgm: \"Soft animal sounds in the distance\"\n        voice_tone: \"Informative, steady\"\n      visual_layer:\n        background: \"Dense foliage with stylized trees\"\n        character_action: \"Pointing towards the bushes as if indicating hidden animals\"\n      \n    notes:\n      grammar_point: \"Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors.\"",
-      "title": "forest_encounter_01",
-      "description": "A conversation between two travelers meeting in a forest.",
+      "source_yaml": "# Metadata for the Presentation Speech Scene\nscene_id: \"raajadharma_sanskrit_sangati_pitch\"\ncontext: \"A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.\"\nart_style: \"Traditional Indian classical with dharmic motifs\"\nmedium_of_instruction: \"हिंदी\"\ntarget_language: \"संस्कृत\"\n\n# Structural Mapping Configuration (Following Nyaya Sutra Principles)\nnyaya_structure:\n  pratijna: \"Invitation to join 6-month deep Sanskrit Sangati for Karmayoga Siddhi\"\n  hetu: \"Regular guided conversation practice purifies speech, clarifies thought, and aligns life with Rajadharma\"\n  drishtanta: \"Live interaction with selected Guru + Sangati with co-sadhaks on Rājadharmānusāsana Parva\"\n  nigaman: \"Strong call to action - Sign up today and transform your life through living Sanskrit dialogue\"\n\nconversations:\n  - segment_id: 1\n    \"हिंदी ॰\": \"नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।\"\n    \n    # Technical and Creative Layers for Video Recording\n    layers:\n      facial_expression: \"Warm, sincere eye contact with gentle smile\"\n      audio_layer:\n        bgm: \"Soft, uplifting traditional flute or veena with subtle nature sounds\"\n        voice_tone: \"Calm, inspiring, slow and clear with natural pauses after key Sanskrit terms\"\n        emphasis: \"Slight rise in energy on words like 'प्रतिज्ञा', 'कर्मयोग', and 'राजधर्मानुशासनपर्व'\"\n      visual_layer:\n        background: \"Subtle dharmic imagery - open book of Mahabharata, lotus, or forest ashram setting\"\n        character_action: \"Speaker standing or seated in traditional posture, with subtle hand gestures for emphasis\"\n      \n    notes:\n      nyaya_element: \"Pratijna - Clear proposition of the 6-month program\"\n      delivery_time: \"Approximately 2 to 2.5 minutes\"\n      cultural_context: \"Establishes the sacredness of Sanskrit as living dharma dialogue\"\n\n  - segment_id: 2\n    \"हिंदी ॰\": \"इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।\"\n    \n    layers:\n      facial_expression: \"Confident and earnest, with focused gaze\"\n      audio_layer:\n        bgm: \"Gentle rise in musical intensity\"\n        voice_tone: \"Steady, logical, building conviction\"\n        emphasis: \"Clear pronunciation and slight pause on 'हेतु', 'कर्मयोग सिद्धि', and 'राजधर्म'\"\n      visual_layer:\n        background: \"Fading in symbolic elements like scales of justice or flowing Sanskrit text\"\n        character_action: \"Open hand gestures explaining logic and benefits\"\n      \n    notes:\n      nyaya_element: \"Hetu - Logical reason supported by tradition and practice\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      grammar_point: \"Use of present and future implications in describing transformation\"\n\n  - segment_id: 3\n    \"हिंदी ॰\": \"इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।\"\n    \n    layers:\n      facial_expression: \"Enthusiastic and reassuring\"\n      audio_layer:\n        bgm: \"Warm, supportive undertone\"\n        voice_tone: \"Storytelling style, hopeful and encouraging\"\n        emphasis: \"Highlight 'संगति सेवा स्वरूप' and real transformation examples\"\n      visual_layer:\n        background: \"Soft visuals of group discussion circles or guru-shishya tradition\"\n        character_action: \"Gesturing towards imaginary participants or growth symbols\"\n      \n    notes:\n      nyaya_element: \"Drishtanta - Illustrative examples of benefits and program structure\"\n      delivery_time: \"Approximately 2.5 minutes\"\n      cultural_context: \"Emphasizes living tradition of guru-guided sangati over passive learning\"\n\n  - segment_id: 4\n    \"हिंदी ॰\": \"अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।\"\n    \n    layers:\n      facial_expression: \"Warm, inviting smile with direct eye contact\"\n      audio_layer:\n        bgm: \"Gentle fade out with inspiring closing note\"\n        voice_tone: \"Passionate, conclusive, and action-oriented\"\n        emphasis: \"Strong stress on 'आज ही', 'साइन अप करें', and 'जय श्री राम'\"\n      visual_layer:\n        background: \"Clean call-to-action overlay with website link and signup button highlight\"\n        character_action: \"Open palms inviting gesture, followed by namaste\"\n      \n    notes:\n      nyaya_element: \"Nigaman - Logical conclusion leading to clear call-to-action\"\n      delivery_time: \"Approximately 1.5 to 2 minutes\"\n      usage: \"End with strong, memorable close suitable for video fade-out and on-screen text\"\n\n# End of Template",
+      "title": "raajadharma_sanskrit_sangati_pitch",
+      "description": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
       "lines": [
         {
           "slot": 1,
-          "content": "संस्कृत ॰ नमो नमः मित्र, भवान् कुत्र गच्छति?",
-          "line_type": "sanskrit",
-          "segment_id": 1,
-          "layers": {
-            "facial_expression": "Smiling, friendly eye contact",
-            "audio_layer": {
-              "bgm": "Soft forest birds and wind",
-              "voice_tone": "Welcoming, rising intonation for the question",
-              "sanskrit_emphasis": "Focus on the 'visarga' in 'namah'"
-            },
-            "visual_layer": {
-              "background": "Dense foliage with stylized trees",
-              "character_action": "Raising right hand in a greeting gesture"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Focus on the root 'गम' (gam) for movement.",
-            "cultural_context": "The use of 'नमो नमः' as a standard respectful greeting."
-          },
-          "notes": "grammar_point: Focus on the root 'गम' (gam) for movement.; cultural_context: The use of 'नमो नमः' as a standard respectful greeting."
-        },
-        {
-          "slot": 2,
-          "content": "हिंदी ॰ नमस्ते मित्र, आप कहाँ जा रहे हैं?",
+          "content": "हिंदी ॰ नमस्कार, प्रिय मित्रों और धर्मानुरागी साथियों। आज मैं आपको एक ऐसा अवसर प्रस्तुत कर रहा हूँ जो केवल भाषा सीखने का नहीं, बल्कि आत्मा को जागृत करने और कर्मयोग को सिद्ध करने का मार्ग है। हमारी प्रतिज्ञा यह है कि गरुड़ कर्मयोगशाला के अंतर्गत राजधर्मानुशासनपर्व के संस्कृत संवाद अभ्यास में छह मास तक गहनता से संलग्न होकर आप अपने चयनित गुरु के सान्निध्य में संस्कृत को मात्र शब्दों का माध्यम नहीं, अपितु जीवन का जीवंत संवाद बना सकते हैं। न्याय शास्त्र कहता है कि सत्य की प्राप्ति प्रमाणों से होती है — प्रत्यक्ष, अनुमान और शब्द प्रमाण से। यह अभ्यास इन तीनों को एक साथ जोड़ता है: आप प्रत्यक्ष रूप से गुरु के मार्गदर्शन में अभ्यास करेंगे, अनुमान से राजधर्म के गूढ़ सिद्धांतों को समझेंगे, और शब्द प्रमाण से महाभारत के राजधर्मानुशासनपर्व की दिव्य वाणी को अपने मुख से उच्चारित करेंगे।",
           "line_type": "hindi",
           "segment_id": 1
         },
         {
-          "slot": 3,
-          "content": "संस्कृत ॰ अहं ग्रामं प्रति गच्छामि।",
-          "line_type": "sanskrit",
-          "segment_id": 2,
-          "layers": {
-            "facial_expression": "Neutral, informative",
-            "audio_layer": {
-              "bgm": "Slightly louder rustling of leaves",
-              "voice_tone": "Steady, declarative"
-            },
-            "visual_layer": {
-              "background": "A path winding through the trees",
-              "character_action": "Pointing toward the horizon"
-            }
-          },
-          "grammar_notes": {
-            "derivation_analysis": {
-              "word": "गच्छामि",
-              "root": "गम्",
-              "analysis": "Present tense, corresponding to the speaker (I)"
-            }
-          },
-          "notes": "derivation_analysis: {'word': 'गच्छामि', 'root': 'गम्', 'analysis': 'Present tense, corresponding to the speaker (I)'}"
-        },
-        {
-          "slot": 4,
-          "content": "हिंदी ॰ मैं ग्राम की ओर जा रहा हूँ।",
+          "slot": 2,
+          "content": "हिंदी ॰ इस अभ्यास का हेतु अत्यंत स्पष्ट और तर्कसंगत है। आज का युग हमें अंग्रेजी या स्थानीय भाषाओं में संवाद करने को विवश करता है, लेकिन हमारी प्राचीन परंपरा संस्कृत को संवाद का सबसे शुद्ध, सबसे शक्तिशाली माध्यम मानती थी। जब आप नियमित रूप से राजधर्म के सिद्धांतों पर संस्कृत में संवाद करेंगे — गुरु के साथ, साथियों के साथ — तब आपके विचार स्पष्ट होंगे, वाक् शुद्ध होगी, और मन एकाग्र बनेगा। न्याय सूत्र के अनुसार, दोषरहित हेतु से सिद्धि प्राप्त होती है। यहां हेतु है — छह मास का निरंतर अभ्यास, चयनित गुरु का व्यक्तिगत संपर्क, और राजधर्मानुशासनपर्व जैसे महान ग्रंथ का गहन अध्ययन। इससे आपका कर्मयोग सिद्ध होगा क्योंकि संवाद अभ्यास केवल बोलना नहीं सिखाता, बल्कि सत्य को जीने की क्षमता विकसित करता है। आप राजा की तरह सोचने लगेंगे — न्यायपूर्ण, धर्मानुकूल और कल्याणकारी।",
           "line_type": "hindi",
           "segment_id": 2
         },
         {
-          "slot": 5,
-          "content": "संस्कृत ॰ किं भवान् मया सह चलिष्यति?",
-          "line_type": "sanskrit",
-          "segment_id": 3,
-          "layers": {
-            "facial_expression": "Inquisitive, hopeful",
-            "audio_layer": {
-              "voice_tone": "Inviting, melodic"
-            },
-            "visual_layer": {
-              "accent_elements": "Border patterns reminiscent of geometric folk motifs"
-            }
-          },
-          "grammar_notes": {
-            "usage": "Future tense construction using 'चलिष्यति'."
-          },
-          "notes": "usage: Future tense construction using 'चलिष्यति'."
-        },
-        {
-          "slot": 6,
-          "content": "हिंदी ॰ क्या आप मेरे साथ चलेंगे?",
+          "slot": 3,
+          "content": "हिंदी ॰ इसके दृष्टांत हमारे सामने पहले से मौजूद हैं। जो साधक इस पथ पर चले हैं, उन्होंने देखा है कि संस्कृत संवाद से उनकी स्मृति तीव्र हुई, आत्मविश्वास बढ़ा, और दैनिक जीवन में भी निर्णय लेने की क्षमता धर्म के अनुरूप हो गई। छह महीने तक आप गुरु के संपर्क में रहकर सप्ताहिक या नियमित संवाद सत्रों में भाग लेंगे, पाठ का अभ्यास करेंगे, प्रश्नोत्तर करेंगे, और धीरे-धीरे स्वयं को राजधर्म के सिद्धांतों का वाहक बनाएंगे। यह कोई सामान्य ऑनलाइन कोर्स नहीं है — यह संगति सेवा स्वरूप (XaaS) है, जहाँ संगति ही सेवा बन जाती है। आपकी संगति गुरु और सह-साधकों से होगी, और यह सेवा आपके कर्मयोग की सिद्धि का माध्यम बनेगी।",
           "line_type": "hindi",
           "segment_id": 3
         },
         {
-          "slot": 7,
-          "content": "संस्कृत ॰ आम्, अहं भवतः सह चलामि।",
-          "line_type": "sanskrit",
-          "segment_id": 4,
-          "layers": {
-            "facial_expression": "Happy, relieved",
-            "audio_layer": {
-              "voice_tone": "Affirmative, warm"
-            },
-            "visual_layer": {
-              "character_action": "Nodding and starting to walk alongside the other character"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
-          },
-          "notes": "grammar_point: Use of 'आम्' for affirmation and 'चलामि' as a first-person singular future tense verb."
-        },
-        {
-          "slot": 8,
-          "content": "हिंदी ॰ हाँ, मैं आपके साथ चलूँगा।",
+          "slot": 4,
+          "content": "हिंदी ॰ अतः निगमन यह है कि यदि आप सच्चे हृदय से संस्कृत को जीवंत बनाना चाहते हैं, राजधर्म को समझना चाहते हैं, और अपने जीवन को कर्मयोग की ऊँचाई पर ले जाना चाहते हैं, तो आज ही गरुड़ कर्मयोगशाला में नामांकन करें। साइन अप का बटन आपके सामने है। छह मास का यह अभ्यास आपका जीवन बदल सकता है — इसे मात्र अवसर न समझें, इसे अपना धर्म समझें। गुरु का मार्गदर्शन, राजधर्म का ज्ञान, और संस्कृत का संवाद — ये तीनों मिलकर आपको एक नई दृष्टि देंगे। अभी साइन अप करें, और इस दिव्य यात्रा का हिस्सा बनें। जय श्री राम। धन्यवाद।",
           "line_type": "hindi",
           "segment_id": 4
-        },
-        {
-          "slot": 9,
-          "content": "संस्कृत ॰ मम नाम अर्जुन अस्ति। भवतः नाम किम्?",
-          "line_type": "sanskrit",
-          "segment_id": 5,
-          "layers": {
-            "facial_expression": "Curious, friendly",
-            "audio_layer": {
-              "voice_tone": "Inquisitive, engaging"
-            },
-            "visual_layer": {
-              "character_action": "Extending hand for a handshake"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
-          },
-          "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' and asking for the other person's name with 'किम्?'."
-        },
-        {
-          "slot": 10,
-          "content": "हिंदी ॰ मेरा नाम अर्जुन है। आपका नाम क्या है?",
-          "line_type": "hindi",
-          "segment_id": 5
-        },
-        {
-          "slot": 11,
-          "content": "संस्कृत ॰ मम नाम श्रीधर अस्ति।",
-          "line_type": "sanskrit",
-          "segment_id": 6,
-          "layers": {
-            "facial_expression": "Pleased, confident",
-            "audio_layer": {
-              "voice_tone": "Calm, assertive"
-            },
-            "visual_layer": {
-              "character_action": "Smiling and nodding"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Introduction using 'मम नाम ... अस्ति' for stating one's own name."
-          },
-          "notes": "grammar_point: Introduction using 'मम नाम ... अस्ति' for stating one's own name."
-        },
-        {
-          "slot": 12,
-          "content": "हिंदी ॰ मेरा नाम श्रीधर है।",
-          "line_type": "hindi",
-          "segment_id": 6
-        },
-        {
-          "slot": 13,
-          "content": "संस्कृत ॰ भवान् कुत्रतः आगतः?",
-          "line_type": "sanskrit",
-          "segment_id": 7,
-          "layers": {
-            "facial_expression": "Inquisitive, interested",
-            "audio_layer": {
-              "voice_tone": "Curious, engaging"
-            },
-            "visual_layer": {
-              "character_action": "Tilting head slightly, maintaining eye contact"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Asking about origin using 'कुत्रतः आगतः?'."
-          },
-          "notes": "grammar_point: Asking about origin using 'कुत्रतः आगतः?'."
-        },
-        {
-          "slot": 14,
-          "content": "हिंदी ॰ आप कहाँ से आए हैं?",
-          "line_type": "hindi",
-          "segment_id": 7
-        },
-        {
-          "slot": 15,
-          "content": "संस्कृत ॰ अहं हिमालयसमीपग्रामात् आगतः अस्मि। यात्रायां वनेषु अनेकान् पशून् दृष्टवान् अस्मि।",
-          "line_type": "sanskrit",
-          "segment_id": 8,
-          "layers": {
-            "facial_expression": "Reflective, experienced",
-            "audio_layer": {
-              "bgm": "Soft forest birds and wind",
-              "voice_tone": "Calm, storytelling"
-            },
-            "visual_layer": {
-              "background": "A path winding through the trees",
-              "character_action": "Walking and gesturing towards the distant path"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
-          },
-          "notes": "grammar_point: Past experience using perfect participle 'दृष्टवान् अस्मि' to indicate 'have seen'."
-        },
-        {
-          "slot": 16,
-          "content": "हिंदी ॰ मैं हिमालय के निकट एक गांव से आया हूँ। यात्रा के दौरान जंगलों में अनेक जानवरों को देखा है।",
-          "line_type": "hindi",
-          "segment_id": 8
-        },
-        {
-          "slot": 17,
-          "content": "संस्कृत ॰ सुन्दरम्! भवान् वन्यपशूनां सम्यक् अनुभवं प्राप्तवान् अस्ति। तेषां विषये भवतः ज्ञानं किम् अस्ति? किं ते आचरणे अनुमेयाः भवन्ति उत अप्रत्याशिताः?",
-          "line_type": "sanskrit",
-          "segment_id": 9,
-          "layers": {
-            "facial_expression": "Interested, engaged",
-            "audio_layer": {
-              "bgm": "Slightly louder rustling of leaves",
-              "voice_tone": "Curious, rising intonation"
-            },
-            "visual_layer": {
-              "character_action": "Looking at the companion while walking side by side"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
-          },
-          "notes": "grammar_point: Question formation with 'किम् अस्ति' and 'उत' for presenting alternatives ('or')."
-        },
-        {
-          "slot": 18,
-          "content": "हिंदी ॰ बढ़िया! तो आपने जंगली जानवरों का अच्छा अनुभव प्राप्त किया है। उनके बारे में आपका ज्ञान क्या है? क्या वे व्यवहार में अनुमानित होते हैं या अप्रत्याशित?",
-          "line_type": "hindi",
-          "segment_id": 9
-        },
-        {
-          "slot": 19,
-          "content": "संस्कृत ॰ मम ज्ञानानुसारम्, केचित् पशवः यथा पक्षिणः अति अनुमेयाः सन्ति यतः ते प्रतिदिनम् एकस्मिन् एव काले उड्डयन्ते। किन्तु केचित् यथा सिंहः वा व्याघ्रः अप्रत्याशिताः भवितुम् अर्हन्ति, ते कदाचित् अकस्मात् प्रकटाः भवन्ति।",
-          "line_type": "sanskrit",
-          "segment_id": 10,
-          "layers": {
-            "facial_expression": "Knowledgeable, explanatory",
-            "audio_layer": {
-              "bgm": "Soft animal sounds in the distance",
-              "voice_tone": "Informative, steady"
-            },
-            "visual_layer": {
-              "background": "Dense foliage with stylized trees",
-              "character_action": "Pointing towards the bushes as if indicating hidden animals"
-            }
-          },
-          "grammar_notes": {
-            "grammar_point": "Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
-          },
-          "notes": "grammar_point: Comparative structure using 'केचित् ... किन्तु केचित्' to contrast predictable and unpredictable behaviors."
-        },
-        {
-          "slot": 20,
-          "content": "हिंदी ॰ मेरे ज्ञान के अनुसार, कुछ जानवर जैसे पक्षी बहुत अनुमानित होते हैं क्योंकि वे रोज एक ही समय पर उड़ते हैं। लेकिन कुछ जैसे शेर या बाघ अप्रत्याशित हो सकते हैं, वे कभी भी अचानक प्रकट हो सकते हैं।",
-          "line_type": "hindi",
-          "segment_id": 10
         }
       ],
       "proposals": [],
       "scene_metadata": {
-        "scene_id": "forest_encounter_01",
-        "context": "A conversation between two travelers meeting in a forest.",
-        "art_style": "Traditional regional folk art with vibrant line work",
+        "scene_id": "raajadharma_sanskrit_sangati_pitch",
+        "context": "A motivational spoken presentation to encourage signup for the Sanskrit Conversation Practice program, delivered as a video recording for the website.",
+        "art_style": "Traditional Indian classical with dharmic motifs",
         "medium_of_instruction": "हिंदी",
         "target_language": "संस्कृत",
-        "grammar_rules": {
-          "prathama_purusha": "I",
-          "uttama_purusha": "III"
-        }
+        "grammar_rules": {}
       },
-      "line_count": 20,
+      "line_count": 4,
       "line_types": {
-        "sanskrit": 10,
-        "hindi": 10,
+        "sanskrit": 0,
+        "hindi": 4,
         "note": 0
       }
     }
