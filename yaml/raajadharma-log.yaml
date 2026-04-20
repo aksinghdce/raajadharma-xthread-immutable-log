@@ -263,3 +263,17 @@ updates:
   x_tweet_id: ''
   community_url: https://x.com/i/communities/1981771124343283876
   verified_by: []
+- entry_number: 13
+  date: '2026-04-20T19:23:38.045072'
+  actor_wallet: portal
+  action_type: portal_contact_lead
+  description: Portal submission via raajadharma.org — Career Opportunity
+  lead_id: B4VCC57URH
+  interest: Career Opportunity
+  email_hash: sha256:fdfaafbd91104e15bd21b25ffb75521760c4b5af8503ad45c724aca63d0322f9
+  referrer: direct
+  media_hashes: []
+  ipfs_hashes: []
+  x_tweet_id: ''
+  community_url: https://x.com/i/communities/1981771124343283876
+  verified_by: []
