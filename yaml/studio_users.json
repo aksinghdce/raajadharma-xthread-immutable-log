@@ -80,7 +80,49 @@
       "email_verified": true,
       "created_at": "2026-04-15T22:03:18.278103+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M007",
+      "email": "acharya.aruna@example.com",
+      "name": "आचार्य अरुण",
+      "role": "Guru",
+      "password_hash": "",
+      "hash_algo": "sha256",
+      "email_verified": true,
+      "verification_token": null,
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2024-01-01T00:00:00+00:00",
+      "verse_slot": null
+    },
+    {
+      "member_id": "M008",
+      "email": "acharya.bhavana@example.com",
+      "name": "आचार्य भावना",
+      "role": "Guru",
+      "password_hash": "",
+      "hash_algo": "sha256",
+      "email_verified": true,
+      "verification_token": null,
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2024-01-01T00:00:00+00:00",
+      "verse_slot": null
+    },
+    {
+      "member_id": "M009",
+      "email": "acharya.devika@example.com",
+      "name": "आचार्य देविका",
+      "role": "Guru",
+      "password_hash": "",
+      "hash_algo": "sha256",
+      "email_verified": true,
+      "verification_token": null,
+      "reset_token": null,
+      "reset_expires": null,
+      "created_at": "2024-01-01T00:00:00+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 7
+  "next_id": 10
 }
