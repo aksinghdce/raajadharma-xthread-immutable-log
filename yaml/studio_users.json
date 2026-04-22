@@ -134,7 +134,19 @@
       "email_verified": true,
       "created_at": "2026-04-20T08:34:00.458025+00:00",
       "verse_slot": null
+    },
+    {
+      "member_id": "M011",
+      "email": "ipsa32v64k@gmail.com",
+      "name": "Ipsa Bhardwaj",
+      "role": "Member",
+      "firebase_uid": "U7OT6epEN4g4hpId4DSmBh3vv9l2",
+      "password_hash": "",
+      "hash_algo": "firebase",
+      "email_verified": true,
+      "created_at": "2026-04-22T20:33:23.469497+00:00",
+      "verse_slot": null
     }
   ],
-  "next_id": 11
+  "next_id": 12
 }
