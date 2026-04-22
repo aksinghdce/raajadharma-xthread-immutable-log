@@ -286,3 +286,12 @@ updates:
   source_hash: b3aa9f4feb1d4a58fcb913043dd6363647c68565228fb6fce73533fdc5a8026c
   sha256_fingerprint: 92e9b4f492bee3563323dc1ba4ebe22253ab62d9e2fdf3d907cef25fcc163ccc
   entry_number: 14
+- action_type: conversation_seed_duplicate
+  seed_id: seed-20260422T133916-e9a45a
+  duplicate_of_id: seed-20260422T134209-3a1400
+  duplicate_of_title: madira_dosha_reading_conversational
+  marked_by: M005
+  marked_at: '2026-04-22T16:21:17.749999+00:00'
+  reason: development phase
+  source_hash: ''
+  entry_number: 15
