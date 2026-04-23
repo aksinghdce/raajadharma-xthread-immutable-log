@@ -341,3 +341,14 @@ updates:
   sha256_fingerprint: e07a96accb0265cd611e9b5158c12c855ba369d2d920ffbace01d41ea1a41a22
   review_id: review-20260423T224053-839489
   entry_number: 20
+- action_type: conversation_seed_review_requested
+  seed_id: seed-20260423T015935-6ff323
+  segment_id: 2
+  requested_by: M005
+  requested_at: '2026-04-23T23:06:34.043891+00:00'
+  reason: क्या "स्वभाव" जाति का सूचक है?
+  comment: क्या "स्वभाव" जाति का सूचक है?
+  source_hash: cad83e7aade73984a7879a88857167708802811b7f9119551a25902041c9d7ca
+  sha256_fingerprint: fe6723075d3517ac6a5e6776f66056b3cba27ae52662174c608c94fb714a9830
+  review_id: review-20260423T230634-ac3b7a
+  entry_number: 21
