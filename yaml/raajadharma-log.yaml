@@ -567,3 +567,12 @@ updates:
   reason: No longer needed
   source_hash: seedhash
   entry_number: 28
+- action_type: conversation_seed_duplicate
+  seed_id: seed-1
+  duplicate_of_id: seed-2
+  duplicate_of_title: Seed Two
+  marked_by: M007
+  marked_at: '2026-04-26T01:45:26.902290+00:00'
+  reason: Same pattern
+  source_hash: seedhash-1
+  entry_number: 29
