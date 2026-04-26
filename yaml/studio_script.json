@@ -1,14 +1,14 @@
 {
-  "version": 20,
+  "version": 21,
   "finalized": false,
-  "uploaded_by": "M002",
-  "uploaded_at": "2026-04-20T19:23:34.113471+00:00",
-  "updated_at": "2026-04-20T19:23:36.162973+00:00",
-  "current_script_id": "script-20260420T192334-2ec86a",
+  "uploaded_by": "M001",
+  "uploaded_at": "2026-04-26T01:45:19.549260+00:00",
+  "updated_at": "2026-04-26T01:45:19.549260+00:00",
+  "current_script_id": "script-20260426T014519-605876",
   "source_filename": "studio_script.json",
-  "source_yaml": "title: Test Script\nlines:\n  - slot: 1\n    text: \"संस्कृत ॰ नमो नमः\"\n",
+  "source_yaml": "title: Test Script\ndescription: Draft\nlines:\n- slot: 1\n  speaker_hint: ''\n  content: संस्कृत ॰ नमो नमः\n  notes: null\n  line_type: sanskrit\n  note_subtype: null\n  segment_id: null\n  layers: null\n  grammar_notes: null\n",
   "title": "Test Script",
-  "description": "",
+  "description": "Draft",
   "lines": [
     {
       "slot": 1,
@@ -543,6 +543,36 @@
       "source_yaml": "title: Test Script\nlines:\n  - slot: 1\n    text: \"संस्कृत ॰ नमो नमः\"\n",
       "title": "Test Script",
       "description": "",
+      "lines": [
+        {
+          "slot": 1,
+          "speaker_hint": "",
+          "content": "संस्कृत ॰ नमो नमः",
+          "line_type": "sanskrit"
+        }
+      ],
+      "proposals": [],
+      "scene_metadata": {},
+      "line_count": 1,
+      "line_types": {
+        "sanskrit": 1,
+        "hindi": 0,
+        "note": 0
+      }
+    },
+    {
+      "id": "script-20260426T014519-605876",
+      "version": 21,
+      "finalized": false,
+      "finalized_by": null,
+      "finalized_at": null,
+      "uploaded_by": "M001",
+      "uploaded_at": "2026-04-26T01:45:19.549260+00:00",
+      "updated_at": "2026-04-26T01:45:19.549260+00:00",
+      "source_filename": "studio_script.json",
+      "source_yaml": "title: Test Script\ndescription: Draft\nlines:\n- slot: 1\n  speaker_hint: ''\n  content: संस्कृत ॰ नमो नमः\n  notes: null\n  line_type: sanskrit\n  note_subtype: null\n  segment_id: null\n  layers: null\n  grammar_notes: null\n",
+      "title": "Test Script",
+      "description": "Draft",
       "lines": [
         {
           "slot": 1,
