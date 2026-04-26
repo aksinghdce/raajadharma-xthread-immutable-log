@@ -540,3 +540,14 @@ updates:
   source_hash: 990287c882ca72e072a4a2da38af9c60516a3d684d179d31e9cbe734a1a95897
   sha256_fingerprint: 19153c2cd856fd60959f22d9043cf2346add47968ed9bb745b7024620d8a5bbd
   entry_number: 25
+- action_type: conversation_seed_review_requested
+  seed_id: seed-1
+  segment_id: 2
+  requested_by: M007
+  requested_at: '2026-04-26T01:45:23.028064+00:00'
+  reason: Needs review
+  comment: Needs review
+  source_hash: seedhash
+  sha256_fingerprint: 58e377ea39c45f4cf5ceab67210b92f07a81cbba76c2e9b6defcb0298163b103
+  review_id: review-20260426T014523-4731d9
+  entry_number: 26
