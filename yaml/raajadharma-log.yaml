@@ -576,3 +576,17 @@ updates:
   reason: Same pattern
   source_hash: seedhash-1
   entry_number: 29
+- entry_number: 30
+  date: '2026-04-26T01:45:28.235236'
+  actor_wallet: portal
+  action_type: portal_contact_lead
+  description: Portal submission via raajadharma.org — Career Opportunity
+  lead_id: NML8Y7W8VN
+  interest: Career Opportunity
+  email_hash: sha256:fdfaafbd91104e15bd21b25ffb75521760c4b5af8503ad45c724aca63d0322f9
+  referrer: direct
+  media_hashes: []
+  ipfs_hashes: []
+  x_tweet_id: ''
+  community_url: https://x.com/i/communities/1981771124343283876
+  verified_by: []
