@@ -617,3 +617,12 @@ updates:
   reason: No longer needed
   source_hash: seedhash
   entry_number: 33
+- action_type: conversation_seed_duplicate
+  seed_id: seed-1
+  duplicate_of_id: seed-2
+  duplicate_of_title: Seed Two
+  marked_by: M007
+  marked_at: '2026-09-27T02:45:25.947813+00:00'
+  reason: Same pattern
+  source_hash: seedhash-1
+  entry_number: 34
